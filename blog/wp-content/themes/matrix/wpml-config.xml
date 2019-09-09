@@ -1,0 +1,53 @@
+<wpml-config>
+    <admin-texts>
+        <key name="matrix_theme_options">
+            <key name="logo_layout"/>
+            <key name="topbarcolor"/>
+            <key name="headercolorscheme"/>
+            <key name="home_service_title"/>
+            <key name="home_service_description"/>
+            <key name="service_title_1"/>
+            <key name="service_text_1"/>
+            <key name="service_title_2"/>
+            <key name="service_text_2"/>
+            <key name="service_title_3"/>
+            <key name="service_text_3"/>
+            <key name="service_title_4"/>
+            <key name="service_text_4"/>
+            <key name="slide_title_1"/>
+            <key name="slide_description_1"/>
+            <key name="slide1_btn1_text"/>
+            <key name="slide1_btn2_text"/>
+            <key name="slide_title_2"/>
+            <key name="slide2_btn1_text"/>
+            <key name="slide2_btn2_text"/>
+            <key name="slide_description_2"/>
+            <key name="slide_title_3"/>
+            <key name="slide3_btn1_text"/>
+            <key name="slide3_btn2_text"/>
+            <key name="slide_description_3"/>
+            <key name="home_portfolio_title"/>
+            <key name="home_portfolio_description"/>
+            <key name="port_1_title"/>
+            <key name="port_1_desc"/>
+            <key name="port_2_title"/>
+            <key name="port_2_desc"/>
+            <key name="port_3_title"/>
+            <key name="port_3_desc"/>
+            <key name="port_4_title"/>
+            <key name="port_4_desc"/>
+            <key name="footer_copyright_text"/>
+            <key name="created_by_matrix_text"/>
+            <key name="created_by_link"/>
+            <key name="home_blog_title"/>
+            <key name="home_blog_description"/>
+            <key name="anim_texts"/>
+            <key name="home_callout_description"/>
+            <key name="home_callout_btn_1"/>
+            <key name="home_callout_btn_2"/>
+            <key name="contact_email"/>
+            <key name="contact_phone"/>
+            <key name="contact_address"/>
+        </key>
+    </admin-texts>
+</wpml-config>

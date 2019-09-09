@@ -1,0 +1,945 @@
+# Copyright (C) 2017 ThemeGrill
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Esteem 1.3.3\n"
+"Report-Msgid-Bugs-To: themegrill@gmail.com\n"
+"POT-Creation-Date: 2017-01-18 05:50:37+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: inc/admin/class-esteem-admin.php:357
+msgid "4"
+msgstr ""
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Try the search below."
+msgstr ""
+
+#: comments.php:31
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:38 comments.php:56
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:39 comments.php:57
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:40 comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: content-blog-image-large.php:42 content-blog-image-medium.php:43
+#: content.php:46 inc/widgets/widgets.php:195 inc/widgets/widgets.php:212
+msgid "Read more"
+msgstr ""
+
+#: content-page.php:17 content-single.php:29
+msgid "Pages:"
+msgstr ""
+
+#: content-single.php:22
+msgid "Tagged on: "
+msgstr ""
+
+#: fontawesome/icons.php:4
+msgid "(None)"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:36 inc/admin/class-esteem-admin.php:116
+msgid "About"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:74
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:78
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:92
+msgid "Dismiss"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:93
+msgid ""
+"Welcome! Thank you for choosing Esteem! To fully take advantage of the best "
+"our theme can offer please make sure you visit our %swelcome page%s."
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:95
+msgid "Get started with Esteem"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:131 inc/customizer.php:21
+msgid "Theme Info"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:133 inc/customizer.php:37
+msgid "View Demo"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:135
+msgid "View PRO version"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:137 inc/customizer.php:41
+msgid "Rate this theme"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:145
+msgid "Supported Plugins"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:148
+msgid "Free Vs Pro"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:151
+msgid "Changelog"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:185
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:186
+msgid "All Theme Options are available via Customize screen."
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:187
+msgid "Customize"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:191 inc/admin/class-esteem-admin.php:193
+#: inc/customizer.php:29
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:192
+msgid "Please view our documentation page to setup the theme."
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:197
+msgid "Got theme support question?"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:198
+msgid "Please put it in our dedicated support forum."
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:199 inc/customizer.php:25
+msgid "Support Forum"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:203
+msgid "Need more features?"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:204 inc/admin/class-esteem-admin.php:344
+msgid "Upgrade to PRO version for more exciting features."
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:205 inc/admin/class-esteem-admin.php:499
+#: inc/customizer.php:33
+msgid "View Pro"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:209
+msgid "Got sales related question?"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:210
+msgid "Please send it via our sales contact page."
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:211
+msgid "Contact Page"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:217 inc/admin/class-esteem-admin.php:225
+msgid "Translate"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:221
+msgid "Click below to translate this theme into your own language."
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:237
+msgid "Return to Updates"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:237
+msgid "Return to Dashboard &rarr; Updates"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:240
+msgid "Go to Dashboard &rarr; Home"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:240
+msgid "Go to Dashboard"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:257
+msgid "View changelog below:"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:309
+msgid "This theme recommends following plugins:"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:311 inc/admin/class-esteem-admin.php:386
+msgid "Social Icons"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:312 inc/admin/class-esteem-admin.php:315
+msgid " by ThemeGrill"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:314
+msgid "Easy Social Sharing"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:317
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:318
+msgid "WP-PageNavi"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:319
+msgid "Breadcrumb NavXT"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:320
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:321 inc/admin/class-esteem-admin.php:324
+#: inc/admin/class-esteem-admin.php:327
+msgid "Fully Compatible in Pro Version"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:323
+msgid "Polylang"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:326
+msgid "WPML"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:349
+msgid "Features"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Esteem"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:351
+msgid "Esteem Pro"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:356 inc/customizer.php:520
+msgid "Slider"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:358
+msgid "Unlimited Slides"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:361
+msgid "Google Fonts Option"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:363
+msgid "600+"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:366
+msgid "Font Size options"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:371
+msgid "Primary Color"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:376
+msgid "Multiple Color Options"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:378
+msgid "35+ color options"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:381
+msgid "Additional Top Header"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:383
+msgid "Social Icons + Menu + Header text option"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:391
+msgid "Boxed & Wide layout option"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:396
+msgid "Content Demo"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:401
+msgid "WP-PageNavi Compatible"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:406
+msgid "Breadcrumb NavXT Compatible"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:411
+msgid "Woocommerce Compatible"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:416
+msgid "Translation Ready"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:421
+msgid "RTL Support"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:426
+msgid "WPML Compatible"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:431
+msgid "Polylang Compatible"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:436
+msgid "Footer Widget Area"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:441
+msgid "Footer Copyright Editor"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:446
+msgid "Support"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:447
+msgid "Forum"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:448
+msgid "Forum + Emails/Support Ticket"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:451
+msgid "TG: Services widget"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:456
+msgid "TG: Call to Action widget"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:461
+msgid "TG: Featured widget"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:466 inc/widgets/widgets.php:457
+msgid "TG: Testimonial"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:471
+msgid "TG: Featured Posts"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:476
+msgid "TG: Our Clients"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:481
+msgid "TG: Pricing Table"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:486
+msgid "TG: Team"
+msgstr ""
+
+#: inc/admin/class-esteem-admin.php:491
+msgid "TG: Fun Facts"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:21 inc/admin/meta-boxes.php:31
+msgid "Select Layout"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:41
+msgid "Icon class"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:55
+msgid "Sidebar Layout"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:60
+msgid "Default Layout"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:64 inc/widgets/widgets.php:18
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:68 inc/widgets/widgets.php:29
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:72
+msgid "No sidebar full width"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:76
+msgid "No sidebar content Centered"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:86
+msgid "fontawesome Icons"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Esteem Important Links"
+msgstr ""
+
+#: inc/customizer.php:74
+msgid "Header"
+msgstr ""
+
+#: inc/customizer.php:79
+msgid "Header Logo"
+msgstr ""
+
+#: inc/customizer.php:93
+msgid "Upload logo for your header."
+msgstr ""
+
+#: inc/customizer.php:94
+msgid ""
+"%sInfo:%s This option will be removed in upcoming update. Please go to Site "
+"Identity section to upload the theme logo."
+msgstr ""
+
+#: inc/customizer.php:103
+msgid "Show"
+msgstr ""
+
+#: inc/customizer.php:115
+msgid "Choose the option that you want."
+msgstr ""
+
+#: inc/customizer.php:118
+msgid "Header Logo Only"
+msgstr ""
+
+#: inc/customizer.php:119
+msgid "Header Text Only"
+msgstr ""
+
+#: inc/customizer.php:120
+msgid "Show Both"
+msgstr ""
+
+#: inc/customizer.php:121
+msgid "Disable"
+msgstr ""
+
+#: inc/customizer.php:128
+msgid "Responsive Menu Style"
+msgstr ""
+
+#: inc/customizer.php:139
+msgid "Switch to new responsive menu."
+msgstr ""
+
+#: inc/customizer.php:146
+msgid "Promo box Primary Slogan"
+msgstr ""
+
+#: inc/customizer.php:156
+msgid "Enter the main Slogan"
+msgstr ""
+
+#: inc/customizer.php:163
+msgid "Promo box secondary Slogan"
+msgstr ""
+
+#: inc/customizer.php:173
+msgid "Enter the sub slogan"
+msgstr ""
+
+#: inc/customizer.php:180 inc/customizer.php:190
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer.php:197
+msgid "Button redirect link"
+msgstr ""
+
+#: inc/customizer.php:207
+msgid "Enter redirect link"
+msgstr ""
+
+#: inc/customizer.php:217
+msgid "Design"
+msgstr ""
+
+#: inc/customizer.php:222
+msgid "Site Layout"
+msgstr ""
+
+#: inc/customizer.php:234
+msgid "Choose your site layout. The change is reflected in whole site."
+msgstr ""
+
+#: inc/customizer.php:237
+msgid "Boxed layout"
+msgstr ""
+
+#: inc/customizer.php:238
+msgid "Wide layout"
+msgstr ""
+
+#: inc/customizer.php:306
+msgid "Default layout"
+msgstr ""
+
+#: inc/customizer.php:319
+msgid ""
+"Select default layout. This layout will be reflected in whole site "
+"archives, search etc. The layout for a single post and page can be "
+"controlled from below options.. The change is reflected in whole site."
+msgstr ""
+
+#: inc/customizer.php:332
+msgid "Default layout for pages only"
+msgstr ""
+
+#: inc/customizer.php:345
+msgid ""
+"Select default layout for pages. This layout will be reflected in all pages "
+"unless unique layout is set for specific page."
+msgstr ""
+
+#: inc/customizer.php:358
+msgid "Default layout for single posts only"
+msgstr ""
+
+#: inc/customizer.php:371
+msgid ""
+"Select default layout for single posts. This layout will be reflected in "
+"all single posts unless unique layout is set for specific post."
+msgstr ""
+
+#: inc/customizer.php:384
+msgid "Blog page display type"
+msgstr ""
+
+#: inc/customizer.php:396
+msgid ""
+"Choose the display type for the latests posts view or posts page view "
+"(static front page)."
+msgstr ""
+
+#: inc/customizer.php:399
+msgid "Large featured image"
+msgstr ""
+
+#: inc/customizer.php:400
+msgid "Small featured image"
+msgstr ""
+
+#: inc/customizer.php:401
+msgid "Full Content"
+msgstr ""
+
+#: inc/customizer.php:409
+msgid "Primary color option"
+msgstr ""
+
+#: inc/customizer.php:420
+msgid ""
+"This will reflect in links, buttons and many others. Choose a color to "
+"match your site."
+msgstr ""
+
+#: inc/customizer.php:444
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/customizer.php:456
+msgid "Write your custom css."
+msgstr ""
+
+#: inc/customizer.php:470
+msgid "Additional"
+msgstr ""
+
+#: inc/customizer.php:476
+msgid "Activate favicon"
+msgstr ""
+
+#: inc/customizer.php:488
+msgid "Check to activate favicon. Upload fav icon from below option"
+msgstr ""
+
+#: inc/customizer.php:494
+msgid "Upload favicon"
+msgstr ""
+
+#: inc/customizer.php:507
+msgid "Upload favicon for your site."
+msgstr ""
+
+#: inc/customizer.php:525
+msgid "Activate slider"
+msgstr ""
+
+#: inc/customizer.php:537
+msgid "Check to activate slider."
+msgstr ""
+
+#: inc/customizer.php:545
+msgid "Image Upload #%1$s"
+msgstr ""
+
+#: inc/customizer.php:558
+msgid "Upload slider image."
+msgstr ""
+
+#: inc/customizer.php:572
+msgid "Enter title for your slider."
+msgstr ""
+
+#: inc/customizer.php:586
+msgid "Enter your slider description."
+msgstr ""
+
+#: inc/customizer.php:601
+msgid "Enter link to redirect slider when clicked"
+msgstr ""
+
+#: inc/functions.php:240
+msgid "WordPress"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeGrill"
+msgstr ""
+
+#: inc/functions.php:244
+msgid "Copyright &copy; %1$s %2$s."
+msgstr ""
+
+#: inc/functions.php:244
+msgid "Powered by %s."
+msgstr ""
+
+#: inc/functions.php:244
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: inc/functions.php:333
+msgid ""
+"<span class=\"icon-time\"><a href=\"%1$s\" title=\"%2$s\" "
+"rel=\"bookmark\">%3$s</a></span>"
+msgstr ""
+
+#: inc/functions.php:344
+msgid "No Comments"
+msgstr ""
+
+#: inc/functions.php:344
+msgid "1 Comment"
+msgstr ""
+
+#: inc/functions.php:344
+msgid "% Comments"
+msgstr ""
+
+#: inc/functions.php:344
+msgid "Comments Off"
+msgstr ""
+
+#: inc/functions.php:347
+msgid "Edit"
+msgstr ""
+
+#: inc/header-functions.php:119
+msgid "Author: %s"
+msgstr ""
+
+#: inc/header-functions.php:127
+msgid "Day: %s"
+msgstr ""
+
+#: inc/header-functions.php:130
+msgid "Month: %s"
+msgstr ""
+
+#: inc/header-functions.php:133
+msgid "Year: %s"
+msgstr ""
+
+#: inc/header-functions.php:136 sidebar-left.php:29 sidebar.php:29
+msgid "Archives"
+msgstr ""
+
+#: inc/header-functions.php:141
+msgid "Page NOT Found"
+msgstr ""
+
+#: inc/header-functions.php:144
+msgid "Search Results"
+msgstr ""
+
+#: inc/header-functions.php:177
+msgid "You are here:"
+msgstr ""
+
+#: inc/widgets/widgets.php:20
+msgid "Shows widgets at Right side."
+msgstr ""
+
+#: inc/widgets/widgets.php:31
+msgid "Shows widgets at Left side."
+msgstr ""
+
+#: inc/widgets/widgets.php:41
+msgid "Business Page Sidebar"
+msgstr ""
+
+#: inc/widgets/widgets.php:43
+msgid "Shows widgets on Business Page Template."
+msgstr ""
+
+#: inc/widgets/widgets.php:52
+msgid "Footer Sidebar One"
+msgstr ""
+
+#: inc/widgets/widgets.php:54
+msgid "Shows widgets at footer sidebar one."
+msgstr ""
+
+#: inc/widgets/widgets.php:63
+msgid "Footer Sidebar Two"
+msgstr ""
+
+#: inc/widgets/widgets.php:65
+msgid "Shows widgets at footer sidebar two."
+msgstr ""
+
+#: inc/widgets/widgets.php:74
+msgid "Footer Sidebar Three"
+msgstr ""
+
+#: inc/widgets/widgets.php:76
+msgid "Shows widgets at footer sidebar three."
+msgstr ""
+
+#: inc/widgets/widgets.php:85
+msgid "Contact Page Sidebar"
+msgstr ""
+
+#: inc/widgets/widgets.php:87
+msgid "Shows widgets on Contact Page Template."
+msgstr ""
+
+#: inc/widgets/widgets.php:108
+msgid "Display Services( Business Layout )"
+msgstr ""
+
+#: inc/widgets/widgets.php:110
+msgid "TG: Services"
+msgstr ""
+
+#: inc/widgets/widgets.php:128
+msgid "Check to display the Featured Image"
+msgstr ""
+
+#: inc/widgets/widgets.php:129
+msgid "<strong>Note:</strong> Featured Image will overwrite the fontawesome icon."
+msgstr ""
+
+#: inc/widgets/widgets.php:133 inc/widgets/widgets.php:261
+msgid "Page"
+msgstr ""
+
+#: inc/widgets/widgets.php:233
+msgid ""
+"Use this widget to show recent work, portfolio or any pages as your wish ( "
+"Business Layout )"
+msgstr ""
+
+#: inc/widgets/widgets.php:235
+msgid "TG: Featured Widget"
+msgstr ""
+
+#: inc/widgets/widgets.php:254 inc/widgets/widgets.php:571
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/widgets.php:344
+msgid "Use this widget to show the call to action section"
+msgstr ""
+
+#: inc/widgets/widgets.php:346
+msgid "TG: Call To Action Widget"
+msgstr ""
+
+#: inc/widgets/widgets.php:364
+msgid "Call to Action Main Text"
+msgstr ""
+
+#: inc/widgets/widgets.php:366
+msgid "Call to Action Additional Text"
+msgstr ""
+
+#: inc/widgets/widgets.php:369
+msgid "Button Text:"
+msgstr ""
+
+#: inc/widgets/widgets.php:373
+msgid "Button Redirect Link:"
+msgstr ""
+
+#: inc/widgets/widgets.php:377
+msgid "Open in new tab"
+msgstr ""
+
+#: inc/widgets/widgets.php:455
+msgid "Display Testimonial"
+msgstr ""
+
+#: inc/widgets/widgets.php:574 inc/widgets/widgets.php:592
+msgid "Name:"
+msgstr ""
+
+#: inc/widgets/widgets.php:577 inc/widgets/widgets.php:595
+msgid "Image link:"
+msgstr ""
+
+#: inc/widgets/widgets.php:580 inc/widgets/widgets.php:598
+msgid "Testimonial Description"
+msgstr ""
+
+#: inc/widgets/widgets.php:583 inc/widgets/widgets.php:601
+msgid "Byline:"
+msgstr ""
+
+#: inc/widgets/widgets.php:586 inc/widgets/widgets.php:604
+msgid "Company:"
+msgstr ""
+
+#: inc/widgets/widgets.php:589 inc/widgets/widgets.php:607
+msgid "Company link:"
+msgstr ""
+
+#: navigation.php:20
+msgid "&laquo; Previous"
+msgstr ""
+
+#: navigation.php:21
+msgid "Next &raquo;"
+msgstr ""
+
+#: navigation.php:32
+msgid "&larr; Previous"
+msgstr ""
+
+#: navigation.php:33
+msgid "Next &rarr;"
+msgstr ""
+
+#: no-results.php:16
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:20
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:25
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: searchform.php:12 searchform.php:13 searchform.php:15
+msgid "Search"
+msgstr ""
+
+#: sidebar-left.php:36 sidebar.php:36
+msgid "Meta"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://themegrill.com/themes/esteem/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Esteem is a clean multipurpose responsive WordPress theme designed to fit "
+"business, portfolio, blogging or any type of site. The theme supports "
+"custom header, custom background, custom widgets, page templates and has "
+"built in options panel to configure primary color, site logo, slider, "
+"sidebar layout and 3 blog layout. It's also fully compatible with popular "
+"plugins like contact Form 7, WP PageNavi and Breadcrumb Navxt and is "
+"translation ready. Get free support at http://themegrill.com/support-forum/ "
+"and check the demo at http://demo.themegrill.com/esteem/."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themegrill.com"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Business Template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Contact Page Template"
+msgstr ""
+
+#: navigation.php:40
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: navigation.php:41
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""

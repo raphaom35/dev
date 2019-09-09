@@ -1,0 +1,39 @@
+# Translation of Stable (latest release) in French (France)
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-12-09 18:56:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: admin/subtitles-admin.php:377
+msgid "Subtitle"
+msgstr "Sous-titre"
+
+#. Plugin Name of the plugin/theme
+msgid "Subtitles"
+msgstr "Subtitles"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/subtitles/"
+msgstr "http://wordpress.org/plugins/subtitles/"
+
+#. Description of the plugin/theme
+msgid "Easily add subtitles into your WordPress posts, pages, custom post types, and themes."
+msgstr "Ajoutez facilement des sous-titres à vos articles, pages, types de contenu personnalisé, et thèmes WordPress."
+
+#. Author of the plugin/theme
+msgid "Professional Themes"
+msgstr "Professional Themes"
+
+#. Author URI of the plugin/theme
+msgid "https://professionalthemes.nyc/"
+msgstr "https://professionalthemes.nyc/"
+
+#: admin/subtitles-admin.php:183
+msgid "Enter subtitle here"
+msgstr "Saisissez le sous-titre ici"

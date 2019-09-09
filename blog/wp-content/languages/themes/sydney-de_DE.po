@@ -1,0 +1,1774 @@
+# Translation of Themes - Sydney in German
+# This file is distributed under the same license as the Themes - Sydney package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-02-06 15:55:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: de\n"
+"Project-Id-Version: Themes - Sydney\n"
+
+#. Description of the plugin/theme
+msgid "Sydney is a powerful business theme that provides a fast way for companies or freelancers to create an awesome online presence. Sydney brings plenty of customization possibilities like access to all Google Fonts, full color control, layout control, logo upload, full screen slider, header image, sticky navigation and much more. Also, Sydney provides all the construction blocks you need to rapidly create an engaging front page."
+msgstr "Sydney ist ein mächtiges Business-Theme, das Unternehmen und Freelancern die Möglichkeit bietet, schnell eine aussagekräftige Internetpräsenz zu erschaffen. Sydney bietet viele Anpassungsmöglichkeiten, wie den Zugang zu allen Google Fonts, vollständige Farbkontrolle, verschiedene Layouts, Logo-Upload, Vollbild-Slider, Header-Grafiken, eine oben gehaltene Navigation und vieles mehr. Außerdem hat Sydney all die Widgets, die du benötigst, um rasch eine überzeugende Startseite zu erstellen."
+
+#. Theme Name of the plugin/theme
+msgid "Sydney"
+msgstr "Sydney"
+
+#: inc/customizer.php:138 inc/customizer.php:161 inc/customizer.php:1675
+msgid "Video"
+msgstr "Video"
+
+#: demo-content/setup.php:15
+msgid "Demo content"
+msgstr "Demo Inhalt"
+
+#: inc/page-builder.php:65
+msgid "Add a value in the field to change the top/bottom row padding, otherwise 100px will be applied by default"
+msgstr "Füge einen Wert in das Feld ein, um das \"top/bottom\" Zeilen-Padding zu ändern, andernfalls werden 100px standardmäßig hinzugefügt."
+
+#: widgets/fp-services-type-a.php:46 widgets/fp-services-type-b.php:54
+msgid "Excerpt"
+msgstr "Auszug"
+
+#: widgets/fp-services-type-a.php:45 widgets/fp-services-type-b.php:53
+msgid "Full content"
+msgstr "Ganzer Inhalt"
+
+#: inc/upsell/class-customize.php:76
+msgid "Ready for more?"
+msgstr "Bereit für mehr?"
+
+#: widgets/fp-services-type-a.php:43 widgets/fp-services-type-b.php:51
+msgid "Content to display:"
+msgstr "Anzuzeigender Inhalt:"
+
+#: inc/page-builder.php:198
+msgid "This applies to all headings in the widget, except the widget title"
+msgstr "Wird auf alle Überschriften im Widgets angewendet, außer den Widget-Titel"
+
+#: inc/page-builder.php:194
+msgid "Headings color"
+msgstr "Widget Titel Farbe"
+
+#: inc/page-builder.php:187
+msgid "Widget title color"
+msgstr "Widget Titel Farbe"
+
+#: inc/page-builder.php:183
+msgid "This setting depends on the content, it may or may not work"
+msgstr "Diese Einstellung hängt vom Inhalt ab, sie kann funktionieren oder nicht"
+
+#: inc/page-builder.php:180
+msgid "Right"
+msgstr "Rechts"
+
+#: inc/page-builder.php:179
+msgid "Center"
+msgstr "Mitte"
+
+#: inc/page-builder.php:178
+msgid "Left"
+msgstr "Links"
+
+#: inc/page-builder.php:174
+msgid "Content alignment"
+msgstr "Ausrichtung des Inhalts"
+
+#: inc/page-builder.php:113
+msgid "Overlay color"
+msgstr "Transparenz Farbe"
+
+#: inc/page-builder.php:107
+msgid "Disable row overlay?"
+msgstr "Transparenz für Zeile deaktivieren?"
+
+#: inc/customizer.php:1635
+msgid "[DEPRECATED] Please use the color option from Edit Row > Design > Overlay color"
+msgstr "[Veraltet] Benutze die Farbeinstellungen in Zeile bearbeiten > Design > Transparenz Farbe"
+
+#: inc/customizer.php:1301
+msgid "Header"
+msgstr "Kopfzeile"
+
+#: inc/customizer.php:1296
+msgid "Colors"
+msgstr "Farben"
+
+#: inc/upsell/class-customize.php:77
+msgid "Get Sydney Pro"
+msgstr "Hol' dir Sydney Pro"
+
+#: widgets/fp-portfolio.php:12
+msgid "Display your projects in a grid."
+msgstr "Deine Projekte in einem Raster darstellen."
+
+#: widgets/fp-portfolio.php:13
+msgid "Sydney FP: Portfolio"
+msgstr "Sydney FP: Portfolio"
+
+#: widgets/fp-portfolio.php:163
+msgid "Number of projects to show (-1 shows all of them):"
+msgstr "Anzahl der Projekte die angezeigt werden (-1 zeigt alle):"
+
+#: widgets/fp-portfolio.php:169
+msgid "\"Show all\" text:"
+msgstr "„Zeige alle“ Text:"
+
+#: widgets/fp-portfolio.php:40 widgets/fp-portfolio.php:157
+msgid "Show all"
+msgstr "Zeige alle"
+
+#: widgets/fp-portfolio.php:172
+msgid "Show project title?"
+msgstr "Projekttitel anzeigen?"
+
+#: widgets/fp-portfolio.php:165
+msgid "Enter the slugs (comma separated) for your categories or leave empty to show all projects."
+msgstr "Gib hier die Titelformen/Slugs (durch Komma getrennt) für deine Kategorien an oder lasse es leer, um all Projekte anzuzeigen."
+
+#: widgets/fp-portfolio.php:168
+msgid "Show navigation filter? (Category slugs must be specified)."
+msgstr "Navigation Filter anzeigen? (Kategorie Titelformen/Slugs müssen angegeben werden.)"
+
+#: inc/customizer.php:91
+msgid "Page wrapper - bottom padding"
+msgstr "Seitenrahmen - Unterer Innenabstand"
+
+#: widgets/fp-clients.php:35
+msgid "Open clients links in a new tab?"
+msgstr "Links der Kunden in einem neuen Tab öffnen?"
+
+#: inc/customizer.php:84
+msgid "100"
+msgstr "100"
+
+#: inc/customizer.php:61
+msgid "83"
+msgstr "83"
+
+#: inc/customizer.php:68
+msgid "Page wrapper - top padding"
+msgstr "Seitenrahmen - Oberer Innenabstand"
+
+#: inc/customizer.php:94
+msgid "Bottom padding for the page wrapper (the space between the page content and the footer)"
+msgstr "Unterer Innenabstand des Seitenrahmens (der Abstand zwischen dem Seiteninhalt und der Fußzeile)"
+
+#: inc/customizer.php:71
+msgid "Top padding for the page wrapper (the space between the header and the page title)"
+msgstr "Oberer Innenabstand des Seitenrahmens (der Abstand zwischen dem Header und dem Seitentitel)"
+
+#: inc/theme-info.php:22
+msgid "Support"
+msgstr "Support"
+
+#: widgets/fp-testimonials.php:33
+msgid "Autoplay time [ms]"
+msgstr "Automatisches Abspielen [ms]"
+
+#: inc/theme-info.php:23
+msgid "Pro version"
+msgstr "Premium Version"
+
+#: inc/theme-info.php:21
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: inc/theme-info.php:20
+msgid "Theme demo"
+msgstr "Theme Demo"
+
+#: inc/theme-info.php:11 inc/theme-info.php:19
+msgid "Sydney Info"
+msgstr "Sydney Info"
+
+#: plugins/class-tgm-plugin-activation.php:3358
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Aktualisiere Plugin %1$s (%2$d von %3$d)"
+
+#: plugins/class-tgm-plugin-activation.php:2641
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Es wurden keine Plugins zur Aktualisierung ausgewählt. Keine Aktion ausgeführt."
+
+#: plugins/class-tgm-plugin-activation.php:2679
+msgid "No plugins are available to be updated at this time."
+msgstr "Momentan stehen keine Plugins zur Aktualisierung zur Verfügung."
+
+#: plugins/class-tgm-plugin-activation.php:2784
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Es wurden keine Plugins zur Aktivierung ausgewählt. Keine Aktion ausgeführt."
+
+#: plugins/class-tgm-plugin-activation.php:2639
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Es wurden keine Plugins zur Installation ausgewählt. Keine Aktion ausgeführt."
+
+#: plugins/class-tgm-plugin-activation.php:2491
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr "Aktualisiere %2$s"
+
+#: plugins/class-tgm-plugin-activation.php:2566
+msgid "Upgrade message from the plugin author:"
+msgstr "Upgrade-Nachricht vom Plugin-Autor:"
+
+#: plugins/class-tgm-plugin-activation.php:2605
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: plugins/class-tgm-plugin-activation.php:2438
+msgid "Version"
+msgstr "Version"
+
+#: plugins/class-tgm-plugin-activation.php:2375
+msgid "Installed version:"
+msgstr "Installierte Version:"
+
+#: plugins/class-tgm-plugin-activation.php:2367
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "unbekannt"
+
+#: plugins/class-tgm-plugin-activation.php:2395
+msgid "Available version:"
+msgstr "Verfügbare Version:"
+
+#: plugins/class-tgm-plugin-activation.php:2383
+msgid "Minimum required version:"
+msgstr "Geforderte Mindestversion:"
+
+#: plugins/class-tgm-plugin-activation.php:2285
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> aktivieren"
+msgstr[1] "<span class=\"count\">(%s)</span> aktivieren"
+
+#: plugins/class-tgm-plugin-activation.php:2282
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Aktualisierung verfügbar <span class=\"count\">(%s)</span>"
+msgstr[1] "Aktualisierungen verfügbar <span class=\"count\">(%s)</span>"
+
+#: plugins/class-tgm-plugin-activation.php:2279
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> installieren"
+msgstr[1] "<span class=\"count\">(%s)</span> installieren"
+
+#: plugins/class-tgm-plugin-activation.php:2276
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alle <span class=\"count\">(%s)</span>"
+msgstr[1] "Alle <span class=\"count\">(%s)</span>"
+
+#: plugins/class-tgm-plugin-activation.php:2223
+msgid "Update recommended"
+msgstr "Aktualisierung empfohlen"
+
+#: plugins/class-tgm-plugin-activation.php:2220
+msgid "Requires Update"
+msgstr "Aktualisierung nötig"
+
+#: plugins/class-tgm-plugin-activation.php:2231
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: plugins/class-tgm-plugin-activation.php:2217
+msgid "Required Update not Available"
+msgstr "Benötigte Aktualisierung nicht verfügbar"
+
+#: plugins/class-tgm-plugin-activation.php:2211
+msgid "Active"
+msgstr "Aktiv"
+
+#: plugins/class-tgm-plugin-activation.php:387
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Update des Plugins starten"
+msgstr[1] "Update der Plugins starten"
+
+#: plugins/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr "Update erforderlich"
+
+#: plugins/class-tgm-plugin-activation.php:1112
+#: plugins/class-tgm-plugin-activation.php:2824
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "und"
+
+#: plugins/class-tgm-plugin-activation.php:357
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Aktualisierung verfügbar für %1$s"
+msgstr[1] "Aktualisierung verfügbar für %1$s: "
+
+#: plugins/class-tgm-plugin-activation.php:1877
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: plugins/class-tgm-plugin-activation.php:377
+msgid "Sorry, but you do not have the correct permissions to activate the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %1$s plugins."
+msgstr[0] "Entschuldigung, aber du hast nicht die ausreichende Berechtigung, um das Plugins %1$s zu aktivieren."
+msgstr[1] "Entschuldigung, aber du hast nicht die ausreichende Berechtigung, um die Plugins %1$s zu aktivieren."
+
+#: plugins/class-tgm-plugin-activation.php:362
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %1$s plugins."
+msgstr[0] "Entschuldigung, aber du hast nicht die ausreichende Berechtigung, um das Plugin %1$s zu aktualisieren."
+msgstr[1] "Entschuldigung, aber du hast nicht die ausreichende Berechtigung, um die Plugins %1$s zu aktualisieren."
+
+#: plugins/class-tgm-plugin-activation.php:401
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Nichts verändert. Das Plugins %1$s war bereits aktiv."
+
+#: plugins/class-tgm-plugin-activation.php:402
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Das Plugin wurde nicht aktiviert. Für dieses Theme wird eine höhere Version von %s benötigt. Bitte aktualisiere das Plugin."
+
+#: plugins/class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Das Plugin muss aktualisiert werden, um mit deinem Theme kompatibel zu sein."
+
+#: plugins/class-tgm-plugin-activation.php:931
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Das entfernte Plugin-Paket enthält kein Verzeichnis mit dem gewünschten Titelformat und Umbenennen hat nicht funktioniert."
+
+#: plugins/class-tgm-plugin-activation.php:931
+#: plugins/class-tgm-plugin-activation.php:934
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Bitte setze dich mit dem Plugin-Anbieter in Verbindung und bitte ihn, sein Plugin entsprechend den WordPress-Richtlinien zu packen."
+
+#: plugins/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Das entfernte Plugin-Paket besteht aus mehr als einer Datei, aber die Dateien sind nicht in einem Verzeichnis verpackt."
+
+#: plugins/class-tgm-plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr "Setze stattdessen die Konfigurationsvariable parent_slug."
+
+#: plugins/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr "Bitte kontaktiere den Administrator dieser Website für Hilfe."
+
+#: plugins/class-tgm-plugin-activation.php:2185
+msgid "External Source"
+msgstr "Externe Quelle"
+
+#: plugins/class-tgm-plugin-activation.php:347
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %1$s plugins."
+msgstr[0] "Entschuldigung, aber du hast nicht die ausreichende Berechtigung, um das Plugin %1$s zu installieren."
+msgstr[1] "Entschuldigung, aber du hast nicht die ausreichende Berechtigung, um die Plugins %1$s zu installieren."
+
+#: plugins/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr "Etwas lief mit der Plugin-API falsch."
+
+#. Template Name of the plugin/theme
+msgid "Full width"
+msgstr "Gesamte Breite"
+
+#. Template Name of the plugin/theme
+msgid "Front Page"
+msgstr "Startseite"
+
+#: widgets/fp-testimonials.php:127
+msgid "See all our testimonials"
+msgstr "Alle Testimonials anzeigen"
+
+#: widgets/fp-testimonials.php:6
+msgid "Display your testimonials in a slider."
+msgstr "Zeige deine Empfehlungen in einem Slider."
+
+#: widgets/fp-testimonials.php:7
+msgid "Sydney FP: Testimonials"
+msgstr "Sydney FP: Empfehlungen"
+
+#: widgets/fp-testimonials.php:20
+msgid "In order to display this widget, you must first add some testimonials from your admin area."
+msgstr "Um dieses Widget anzuzeigen musst du zuerst eine Empfehlung im Adminbereich erstellen."
+
+#: widgets/fp-testimonials.php:27
+msgid "The URL for your button [In case you want a button below your testimonials block]"
+msgstr "Die URL deines Buttons [Für den Fall, dass du einen Button unter deinem Empfehlungen-Block haben möchtest]"
+
+#: widgets/fp-testimonials.php:29
+msgid "The text for the button [Defaults to <em>See all our testimonials</em> if left empty]"
+msgstr "Der Text des Buttons [Ist das Feld leer, wird <em>Alle Empfehlungen anzeigen</em> verwendet]"
+
+#: widgets/video-widget.php:7
+msgid "Sydney: Video"
+msgstr "Sydney: Video"
+
+#: widgets/fp-testimonials.php:25
+msgid "Number of testimonials to show (-1 shows all of them):"
+msgstr "Anzahl der anzuzeigenden Empfehlungen (-1 zeigt alle an)"
+
+#: widgets/fp-testimonials.php:31
+msgid "Enter the slug for your category or leave empty to show all testimonials."
+msgstr "Gib die Titelform der Kategorie ein oder lasse das Feld leer, um alle Empfehlungen anzuzeigen."
+
+#: widgets/video-widget.php:21
+msgid "Paste the URL of the video (only from a network that supports oEmbed, like Youtube, Vimeo etc.):"
+msgstr "URL des Videos (nur von einem Netzwerk, das oEmbed, wie Youtube, Vimeo etc. unterstützt) einfügen:"
+
+#: widgets/video-widget.php:6
+msgid "Display a video from Youtube, Vimeo etc."
+msgstr "Ein Video von YouTube, Vimeo etc. anzeigen"
+
+#: widgets/fp-social.php:64
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Auswählen &mdash;"
+
+#: widgets/fp-social.php:60
+msgid "In order to display your social icons in a widget, all you need to do is go to <strong>Appearance > Menus</strong> and create a menu containing links to your social profiles, then assign that menu here. Supported networks: Facebook, Twitter, Google Plus, Instagram, Dribble, Vimeo, Linkedin, Youtube, Flickr, Pinterest, Tumblr, Foursquare, Behance."
+msgstr "Um deine Social Icons als Widget anzuzeigen, musst du nur über das Dashboard zu <strong>Design > Menüs</strong> gehen und ein Menü erstellen, das Links zu deinen sozialen Netzwerken enthält. Dieses Menü musst du dann hier zuweisen. Unterstützte Netzwerke: Facebook, Twitter, Google Plus, Instagram, Dribble, Vimeo, Linkedin, Youtube, Flickr, Pinterest, Tumblr, Foursquare, Behance."
+
+#: widgets/fp-social.php:62
+msgid "Select your social menu:"
+msgstr "Wähle dein Social-Menü:"
+
+#: widgets/fp-social.php:52
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr "Es wurden noch keine Menüs erstellt. <a href=\"%s\">Erstelle welche</a>."
+
+#: widgets/fp-skills.php:30
+msgid "First skill name"
+msgstr "Name der ersten Fähigkeit"
+
+#: widgets/fp-skills.php:35
+msgid "First skill value"
+msgstr "Wert der ersten Fähigkeit"
+
+#: widgets/fp-skills.php:41
+msgid "Second skill name"
+msgstr "Name der zweiten Fähigkeit"
+
+#: widgets/fp-skills.php:46
+msgid "Second skill value"
+msgstr "Wert der zweiten Fähigkeit"
+
+#: widgets/fp-skills.php:52
+msgid "Third skill name"
+msgstr "Name der dritten Fähigkeit"
+
+#: widgets/fp-skills.php:57
+msgid "Third skill value"
+msgstr "Wert der dritten Fähigkeit"
+
+#: widgets/fp-skills.php:63
+msgid "Fourth skill name"
+msgstr "Name der vierten Fähigkeit"
+
+#: widgets/fp-skills.php:68
+msgid "Fourth skill value"
+msgstr "Wert der vierten Fähigkeit"
+
+#: widgets/fp-skills.php:6
+msgid "Show your visitors some of your skills."
+msgstr "Zeige deinen Besuchern einige deiner Fähigkeiten."
+
+#: widgets/fp-skills.php:7
+msgid "Sydney FP: Skills"
+msgstr "Sydney FP: Fähigkeiten"
+
+#: widgets/fp-social.php:5
+msgid "Display your social profile on your front page"
+msgstr "Zeige dein soziales Profil auf deiner Startseite"
+
+#: widgets/fp-social.php:6
+msgid "Sydney FP: Social Profile"
+msgstr "Sydney FP: Soziales Profil"
+
+#: widgets/fp-services-type-b.php:41
+msgid "Number of columns:"
+msgstr "Anzahl der Spalten:"
+
+#: widgets/fp-services-type-a.php:11 widgets/fp-services-type-b.php:11
+msgid "Show what services you are able to provide."
+msgstr "Zeige, welche Services du anbieten kannst."
+
+#: widgets/fp-services-type-a.php:33 widgets/fp-services-type-b.php:32
+msgid "Number of services to show (-1 shows all of them):"
+msgstr "Anzahl der anzuzeigenden Services (-1 zeigt alle an):"
+
+#: widgets/fp-services-type-a.php:165 widgets/fp-services-type-b.php:179
+msgid "See all our services"
+msgstr "Alle Services anzeigen"
+
+#: widgets/fp-list.php:66
+msgid "Add a bit of text here. It will be displayed."
+msgstr "Füge hier ein wenig Text ein. Dieser wird angezeigt."
+
+#: widgets/fp-list.php:69
+msgid "Add your list items here. One item per row, start each row with <strong>^</strong>. Example: <strong>^ list item </strong>"
+msgstr ""
+"Füge deine Listenpunkte hier ein. Ein Punkt pro Reihe, starte jede Reihe mit <strong>^</strong>.\n"
+"Beispiel: <strong>^ Listenpunkt</strong>"
+
+#: widgets/fp-services-type-a.php:12
+msgid "Sydney FP: Services Type A"
+msgstr "Sydney FP: Services Typ A"
+
+#: widgets/fp-services-type-a.php:35 widgets/fp-services-type-b.php:34
+msgid "The URL for your button [In case you want a button below your services block]"
+msgstr "Die URL deines Buttons [Für den Fall, dass du einen Button unter deinem Service-Block haben möchtest] "
+
+#: widgets/fp-services-type-a.php:37 widgets/fp-services-type-b.php:36
+msgid "The text for the button [Defaults to <em>See all our services</em> if left empty]"
+msgstr "Der Text des Buttons [Ist das Feld leer, wird <em>Alle Services anzeigen</em> verwendet] "
+
+#: widgets/fp-services-type-a.php:42
+msgid "Display services in two columns instead of three?"
+msgstr "Zeige die Services in zwei Spalten anstatt in drei?"
+
+#: widgets/fp-services-type-b.php:12
+msgid "Sydney FP: Services type B"
+msgstr "Sydney FP: Services Typ B"
+
+#: widgets/fp-services-type-a.php:39 widgets/fp-services-type-b.php:38
+msgid "Enter the slug for your category or leave empty to show all services."
+msgstr "Gib die Titelform der Kategorie ein oder lasse das Feld leer, um alle Services anzuzeigen. "
+
+#: widgets/fp-services-type-a.php:28 widgets/fp-services-type-b.php:27
+msgid "In order to display this widget, you must first add some services from your admin area."
+msgstr "Um dieses Widget anzuzeigen, musst du zuerst einen Service im Adminbereich erstellen. "
+
+#: widgets/fp-list.php:75
+msgid "Call to action button text:"
+msgstr "Text Call-To-Action-Button:"
+
+#: widgets/fp-list.php:72
+msgid "Call to action button URL:"
+msgstr "URL Call-To-Action-Button:"
+
+#: widgets/fp-list.php:63 widgets/fp-portfolio.php:161 widgets/fp-social.php:57
+msgid "Title:"
+msgstr "Titel:"
+
+#: widgets/fp-employees.php:6
+msgid "Display your team members in a stylish way."
+msgstr "Zeige deine Teammitglieder in einer schicken Art und Weise an."
+
+#: widgets/fp-employees.php:21
+msgid "In order to display this widget, you must first add some employees from the dashboard. Add as many as you want and the theme will automatically display them all."
+msgstr "Um dieses Widget anzuzeigen, musst du erst ein paar Mitarbeiter über das Dashboard hinzufügen. Erstelle so viele du willst und das Theme wird sie automatisch alle anzeigen."
+
+#: widgets/fp-employees.php:26
+msgid "Number of employees to show (-1 shows all of them):"
+msgstr "Anzahl der anzuzeigenden Mitarbeiter (-1 zeigt alle an):"
+
+#: widgets/fp-employees.php:160
+msgid "See all our employees"
+msgstr "Alle Mitarbeiter anzeigen"
+
+#: widgets/fp-facts.php:7
+msgid "Show your visitors some facts about your company."
+msgstr "Zeige deinen Besuchern einige Fakten über dein Unternehmen."
+
+#: widgets/fp-latest-news.php:6
+msgid "Show the latest news from your blog."
+msgstr "Zeige die letzten Neuigkeiten deines Blogs."
+
+#: widgets/fp-latest-news.php:71 widgets/fp-latest-news.php:73
+msgid "See all our news"
+msgstr "Alle Neuigkeiten anzeigen"
+
+#: widgets/fp-clients.php:30
+msgid "The text for the button [Defaults to <em>See all our clients</em> if left empty]"
+msgstr "Der Text des Buttons [Ist das Feld leer, wird <em>Alle unsere Kunden anzeigen</em> verwendet] "
+
+#: widgets/fp-clients.php:131
+msgid "See all our clients"
+msgstr "Alle unsere Kunden anzeigen"
+
+#: widgets/fp-employees.php:7
+msgid "Sydney FP: Employees"
+msgstr "Sydney FP: Mitarbeiter"
+
+#: widgets/fp-employees.php:28
+msgid "Enter an URL here if you want to section to link somewhere."
+msgstr "Gib hier eine URL ein, wenn du den Bereich verlinken möchtest."
+
+#: widgets/fp-employees.php:30
+msgid "The text for the button [Defaults to <em>See all our employees</em> if left empty]"
+msgstr "Der Text des Buttons  [Ist das Feld leer, wird <em>Alle Mitarbeiter anzeigen</em> verwendet] "
+
+#: widgets/fp-facts.php:8
+msgid "Sydney FP: Facts"
+msgstr "Sydney FP: Fakten"
+
+#: widgets/fp-facts.php:30
+msgid "You can find a list of the available icons "
+msgstr "Finde eine Liste mit möglichen Icons"
+
+#: widgets/fp-facts.php:30
+msgid "here."
+msgstr "hier."
+
+#: widgets/fp-facts.php:30
+msgid "Usage example: <strong>fa-android</strong>"
+msgstr "Beispiel: <strong>fa-android</strong>"
+
+#: widgets/fp-facts.php:96
+msgid "Fourth fact icon"
+msgstr "Icon des vierten Fakts"
+
+#: widgets/fp-facts.php:80
+msgid "Third fact icon"
+msgstr "Icon des dritten Fakts"
+
+#: widgets/fp-facts.php:48
+msgid "First fact icon"
+msgstr "Icon des ersten Fakts"
+
+#: widgets/fp-facts.php:64
+msgid "Second fact icon"
+msgstr "Icon des zweiten Fakts"
+
+#: widgets/fp-latest-news.php:7
+msgid "Sydney FP: Latest News"
+msgstr "Sydney FP: Letzte Neuigkeiten"
+
+#: widgets/fp-list.php:13
+msgid "Sydney FP: List"
+msgstr "Sydney FP: Liste"
+
+#: widgets/fp-call-to-action.php:27
+msgid "Display the button inline with the text?"
+msgstr "Zeige den Button in einer Linie mit dem Text?"
+
+#: widgets/fp-clients.php:6
+msgid "Display your clients list."
+msgstr "Zeige deine Kundenliste."
+
+#: widgets/fp-clients.php:7
+msgid "Sydney FP: Clients"
+msgstr "Sydney FP: Kunden"
+
+#: widgets/fp-clients.php:26
+msgid "Number of clients to show (-1 shows all of them):"
+msgstr "Anzahl der anzuzeigenden Kunden (-1 zeigt alle an):"
+
+#: widgets/fp-clients.php:28
+msgid "The URL for your button [In case you want a button below your clients block]"
+msgstr "Die URL deines Buttons [Für den Fall, dass du einen Button unter deinem Kunden-Block haben möchtest] "
+
+#: widgets/fp-latest-news.php:23
+msgid "Enter the slug for your category or leave empty to show posts from all categories."
+msgstr "Gib die Titelform der Kategorie ein oder lasse es leer, um Beiträge aller Kategorien anzuzeigen."
+
+#: widgets/fp-employees.php:32
+msgid "Enter the slug for your category or leave empty to show all employees."
+msgstr "Gib die Titelform der Kategorie ein oder lasse es leer, um alle Mitarbeiter anzuzeigen."
+
+#: widgets/fp-clients.php:32
+msgid "Enter the slug for your category or leave empty to show all clients."
+msgstr "Gib die Titelform der Kategorie ein oder lasse das Feld leer, um alle Kunden anzuzeigen."
+
+#: widgets/fp-clients.php:21
+msgid "In order to display this widget, you must first add some clients from your admin area. Set your client logos as featured images."
+msgstr "Um dieses Widget anzuzeigen, musst du zuerst einige Kunden im Adminbereich erstellen. Verwende das Kundenlogo als Beitragsbild."
+
+#: widgets/fp-employees.php:35
+msgid "Center the employees? (use only if you have 1 or 2 employees)"
+msgstr "Die Mitarbeiter zentrieren? (Nutze es nur, wenn du ein oder zwei Mitarbeiter hast)"
+
+#: widgets/fp-facts.php:38
+msgid "First fact name"
+msgstr "Name des ersten Fakts"
+
+#: widgets/fp-facts.php:43
+msgid "First fact value"
+msgstr "Wert des ersten Fakts"
+
+#: widgets/fp-facts.php:54
+msgid "Second fact name"
+msgstr "Name des zweiten Fakts"
+
+#: widgets/fp-facts.php:59
+msgid "Second fact value"
+msgstr "Wert des zweiten Fakts"
+
+#: widgets/fp-facts.php:70
+msgid "Third fact name"
+msgstr "Name des dritten Fakts"
+
+#: widgets/fp-facts.php:75
+msgid "Third fact value"
+msgstr "Wert des dritten Fakts"
+
+#: widgets/fp-facts.php:86
+msgid "Fourth fact name"
+msgstr "Name des vierten Fakts"
+
+#: widgets/fp-facts.php:91
+msgid "Fourth fact value"
+msgstr "Wert des vierten Fakts"
+
+#: widgets/fp-latest-news.php:26
+msgid "Add the text for the button here if you want to change the default <em>See all our news</em>"
+msgstr "Gib hier den Text des Buttons ein, wenn du den Standard <em>Alle Neuigkeiten anzeigen</em> ändern möchtest"
+
+#: widgets/fp-list.php:11
+msgid "A simple list widget"
+msgstr "Ein einfaches Listen Widget"
+
+#: widgets/fp-call-to-action.php:6
+msgid "Display a call to action block."
+msgstr "Zeige einen Call-To-Action-Block an."
+
+#: widgets/fp-call-to-action.php:7
+msgid "Sydney FP: Call to action"
+msgstr "Sydney FP: Call-To-Action"
+
+#: widgets/fp-call-to-action.php:20
+msgid "Enter your call to action."
+msgstr "Gib deine Handlungsaufforderung (Call-To-Action) ein."
+
+#: widgets/fp-call-to-action.php:24
+msgid "Title for the button"
+msgstr "Titel des Buttons"
+
+#: widgets/fp-call-to-action.php:22
+msgid "Link for the button"
+msgstr "Link des Buttons"
+
+#: widgets/contact-info.php:24
+msgid "Enter your address"
+msgstr "Gib deine Adresse ein"
+
+#: widgets/contact-info.php:27
+msgid "Enter your phone number"
+msgstr "Gib deine Telefonnummer ein"
+
+#: widgets/contact-info.php:30
+msgid "Enter your email address"
+msgstr "Gib deine E-Mail-Adresse ein"
+
+#: widgets/contact-info.php:20 widgets/fp-call-to-action.php:18
+#: widgets/fp-clients.php:23 widgets/fp-employees.php:23
+#: widgets/fp-facts.php:32 widgets/fp-latest-news.php:19
+#: widgets/fp-services-type-a.php:30 widgets/fp-services-type-b.php:29
+#: widgets/fp-skills.php:24 widgets/fp-testimonials.php:22
+#: widgets/video-widget.php:17
+msgid "Title"
+msgstr "Titel"
+
+#: widgets/contact-info.php:6
+msgid "Display your contact info"
+msgstr "Deine Kontakt-Informationen anzeigen"
+
+#: widgets/contact-info.php:7
+msgid "Sydney: Contact info"
+msgstr "Sydney: Kontakt-Informationen"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Suchergebnisse für: %s"
+
+#: plugins/class-tgm-plugin-activation.php:3374
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installiere Plugin %1$s (%2$d/%3$d)"
+
+#: plugins/class-tgm-plugin-activation.php:3373
+msgid "All installations have been completed."
+msgstr "Alle Installationen sind abgeschlossen."
+
+#: plugins/class-tgm-plugin-activation.php:3372
+msgid "%1$s installed successfully."
+msgstr "%1$s erfolgreich installiert."
+
+#: plugins/class-tgm-plugin-activation.php:3371
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Der Installationsvorgang wird gestartet. Dieser Vorgang kann bei einigen Hosts eine Weile dauern, bitte hab Geduld."
+
+#: plugins/class-tgm-plugin-activation.php:3368
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installiere und aktiviere Plugin %1$s (%2$d/%3$d)"
+
+#: plugins/class-tgm-plugin-activation.php:3367
+msgid "All installations and activations have been completed."
+msgstr "Alle Installationen und Aktivierungen abgeschlossen sind."
+
+#: plugins/class-tgm-plugin-activation.php:3366
+#: plugins/class-tgm-plugin-activation.php:3372
+msgid "Hide Details"
+msgstr "Details ausblenden"
+
+#: plugins/class-tgm-plugin-activation.php:3366
+#: plugins/class-tgm-plugin-activation.php:3372
+msgid "Show Details"
+msgstr "Details anzeigen"
+
+#: plugins/class-tgm-plugin-activation.php:3366
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s erfolgreich installiert und aktiviert."
+
+#: plugins/class-tgm-plugin-activation.php:3365
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Der Installations- und Aktivierungsvorgang beginnt. Dieser Vorgang kann bei einigen Hosts eine Weile dauern, bitte hab Geduld."
+
+#: plugins/class-tgm-plugin-activation.php:3361
+msgid "The installation of %1$s failed."
+msgstr "Die Installation von %1$s ist fehlgeschlagen."
+
+#: plugins/class-tgm-plugin-activation.php:3360
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Ein Fehler ist während der Installation von %1$s aufgetreten: <strong>%2$s</strong>."
+
+#: plugins/class-tgm-plugin-activation.php:3024
+msgid "Plugin activation failed."
+msgstr "Plugin-Aktivierung ist fehlgeschlagen."
+
+#: plugins/class-tgm-plugin-activation.php:2810
+msgid "No plugins are available to be activated at this time."
+msgstr "Momentan stehen keine Plugins zur Aktivierung zur Verfügung."
+
+#: plugins/class-tgm-plugin-activation.php:2677
+msgid "No plugins are available to be installed at this time."
+msgstr "Momentan stehen keine Plugins zur Installation zur Verfügung."
+
+#: plugins/class-tgm-plugin-activation.php:2608
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: plugins/class-tgm-plugin-activation.php:2599
+msgid "Install"
+msgstr "Installieren"
+
+#: plugins/class-tgm-plugin-activation.php:2439
+msgid "Status"
+msgstr "Status"
+
+#: plugins/class-tgm-plugin-activation.php:2434
+msgid "Type"
+msgstr "Typ"
+
+#: plugins/class-tgm-plugin-activation.php:2433
+msgid "Source"
+msgstr "Quelle"
+
+#: plugins/class-tgm-plugin-activation.php:2432
+msgid "Plugin"
+msgstr "Plugin"
+
+#: plugins/class-tgm-plugin-activation.php:2496
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr "Aktiviere %2$s"
+
+#: plugins/class-tgm-plugin-activation.php:2487
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr "Installiere %2$s"
+
+#: plugins/class-tgm-plugin-activation.php:2418
+msgid "No plugins to install, update or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr "Keine Plugins zu installieren, aktualisieren oder aktivieren. <a href=\"%1$s\">Zurück zum Dashboard</a>"
+
+#: plugins/class-tgm-plugin-activation.php:2209
+msgid "Installed But Not Activated"
+msgstr "Installiert, aber nicht aktiviert"
+
+#: plugins/class-tgm-plugin-activation.php:2205
+msgid "Not Installed"
+msgstr "Nicht installiert"
+
+#: plugins/class-tgm-plugin-activation.php:2166
+msgid "Recommended"
+msgstr "Empfohlen"
+
+#: plugins/class-tgm-plugin-activation.php:2163
+msgid "Required"
+msgstr "Erforderlich"
+
+#: plugins/class-tgm-plugin-activation.php:2182
+msgid "WordPress Repository"
+msgstr "WordPress-Verzeichnis"
+
+#: plugins/class-tgm-plugin-activation.php:2188
+msgid "Pre-Packaged"
+msgstr "Vorgepackt"
+
+#: plugins/class-tgm-plugin-activation.php:824
+#: plugins/class-tgm-plugin-activation.php:3434
+msgid "Return to the Dashboard"
+msgstr "Zurück zum Dashboard"
+
+#: plugins/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr "Diese Mitteilung ausblenden"
+
+#: plugins/class-tgm-plugin-activation.php:403
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alle Plugins installiert und erfolgreich aktiviert. %1$s"
+
+#: plugins/class-tgm-plugin-activation.php:400
+#: plugins/class-tgm-plugin-activation.php:2828
+msgid "The following plugin was activated successfully:"
+msgstr "Das folgende Plugin wurde erfolgreich aktiviert:"
+
+#: plugins/class-tgm-plugin-activation.php:399
+#: plugins/class-tgm-plugin-activation.php:3025
+msgid "Plugin activated successfully."
+msgstr "Plugin erfolgreich aktiviert."
+
+#: plugins/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr "Zurück zum Dashboard"
+
+#: plugins/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr "Zurück zur Installation der erforderlichen Plugins"
+
+#: plugins/class-tgm-plugin-activation.php:392
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Beginne Aktivierung des Plugins"
+msgstr[1] "Beginne Aktivierung der Plugins"
+
+#: plugins/class-tgm-plugin-activation.php:382
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Beginne Installation des Plugins"
+msgstr[1] "Beginne Installation der Plugins"
+
+#: plugins/class-tgm-plugin-activation.php:352
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "Das folgende Plugin muss auf seine neueste Version aktualisiert werden, um maximale Kompatibilität mit diesem Theme zu gewährleisten: %1$s."
+msgstr[1] "Die folgenden Plugins müssen auf ihre neusten Versionen aktualisiert werden, um maximale Kompatibilität mit diesem Theme zu gewährleisten: %1$s."
+
+#: plugins/class-tgm-plugin-activation.php:372
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Folgendes empfohlenes Plugin ist derzeit inaktiv: %1$s."
+msgstr[1] "Folgende empfohlene Plugins sind derzeit inaktiv: %1$s."
+
+#: plugins/class-tgm-plugin-activation.php:367
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Folgendes erforderliches Plugin ist derzeit inaktiv: %1$s."
+msgstr[1] "Folgende erforderliche Plugins sind derzeit inaktiv: %1$s."
+
+#: plugins/class-tgm-plugin-activation.php:342
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Bei diesem Theme wird die Verwendung des folgenden Plugins empfohlen: %1$s."
+msgstr[1] "Bei diesem Theme wird die Verwendung der folgenden Plugins empfohlen: %1$s."
+
+#: plugins/class-tgm-plugin-activation.php:337
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Das Theme erfordert folgendes Plugin: %1$s."
+msgstr[1] "Das Theme erfordert folgende Plugins: %1$s."
+
+#: plugins/class-tgm-plugin-activation.php:335
+msgid "Installing Plugin: %s"
+msgstr "Installiere Plugin: %s"
+
+#: plugins/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr "Plugins installieren"
+
+#: plugins/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr "Erforderliche Plugins installieren"
+
+#: inc/template-tags.php:173
+msgid "Archives"
+msgstr "Archive"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:171
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:167
+msgid "Archives: %s"
+msgstr "Archive: %s"
+
+#: inc/template-tags.php:164
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Chats"
+
+#: inc/template-tags.php:162
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Audio"
+
+#: inc/template-tags.php:160
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Status"
+
+#: inc/template-tags.php:158
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Links"
+
+#: inc/template-tags.php:156
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Zitate"
+
+#: inc/template-tags.php:154
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Videos"
+
+#: inc/template-tags.php:152
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Bilder"
+
+#: inc/template-tags.php:150
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Galerien"
+
+#: inc/template-tags.php:148
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Kurzmitteilungen"
+
+#: inc/template-tags.php:145
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j. F Y"
+
+#: inc/template-tags.php:145
+msgid "Day: %s"
+msgstr "Tag: %s"
+
+#: inc/template-tags.php:143
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:143
+msgid "Month: %s"
+msgstr "Monat: %s"
+
+#: inc/template-tags.php:141
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:141
+msgid "Year: %s"
+msgstr "Jahr: %s"
+
+#: inc/template-tags.php:139
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: inc/template-tags.php:137
+msgid "Tag: %s"
+msgstr "Schlagwort: %s"
+
+#: inc/template-tags.php:135
+msgid "Category: %s"
+msgstr "Kategorie: %s"
+
+#: inc/template-tags.php:115
+msgid " %1$s"
+msgstr " %1$s"
+
+#: inc/template-tags.php:100
+msgid "Posted in %1$s"
+msgstr "Veröffentlicht in %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:98 inc/template-tags.php:113
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:94
+msgid "% Comments"
+msgstr "% Kommentare"
+
+#: inc/template-tags.php:94
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: inc/template-tags.php:86
+msgctxt "post author"
+msgid "%s"
+msgstr "%s"
+
+#: inc/template-tags.php:81
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Veröffentlicht am %s"
+
+#: inc/template-tags.php:94
+msgid "Leave a comment"
+msgstr "Schreibe einen Kommentar"
+
+#: inc/template-tags.php:51
+msgid "Post navigation"
+msgstr "Beitrags-Navigation"
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr "Neuere Beiträge"
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr "Ältere Beiträge"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "Beitrags-Navigation"
+
+#: inc/page-builder.php:98
+msgid "0"
+msgstr "0"
+
+#: inc/page-builder.php:99
+msgid "15px"
+msgstr "15px"
+
+#: inc/page-builder.php:100
+msgid "30px"
+msgstr "30px"
+
+#: inc/page-builder.php:101
+msgid "45px"
+msgstr "45px"
+
+#: inc/page-builder.php:97
+msgid "Default"
+msgstr "Standard"
+
+#: inc/page-builder.php:93
+msgid "Mobile padding"
+msgstr "Innenabstand Mobilgeräte"
+
+#: inc/page-builder.php:95
+msgid "Here you can select a top/bottom row padding for screen sizes < 1024px"
+msgstr "Hier kannst du einen oberen/unteren Innenabstand der Reihe für Bildschirme über 1024px Breite einstellen"
+
+#: inc/page-builder.php:87
+msgid "Background image of the row."
+msgstr "Hintergrundbild der Reihe."
+
+#: inc/page-builder.php:85
+msgid "Background Image"
+msgstr "Hintergrundbild"
+
+#: inc/page-builder.php:80
+msgid "Color of the row."
+msgstr "Textfarbe der Reihe."
+
+#: inc/page-builder.php:78
+msgid "Color"
+msgstr "Textfarbe"
+
+#: inc/page-builder.php:44
+msgid "Sydney Theme Widgets"
+msgstr "Sydney Theme Widgets"
+
+#: inc/page-builder.php:57
+msgid "Bottom Border Color"
+msgstr "Farbe des unteren Randes"
+
+#: inc/page-builder.php:63
+msgid "Top/bottom padding"
+msgstr "Oberer/unterer Innenabstand"
+
+#: inc/page-builder.php:70
+msgid "Center align the content?"
+msgstr "Inhalt zentrieren?"
+
+#: inc/page-builder.php:72
+msgid "This may or may not work. It depends on the widget styles."
+msgstr "Das kann funktionieren, muss aber nicht. Es ist von den Widget-Stilen abhängig."
+
+#: inc/extras.php:52
+msgid "Page %s"
+msgstr "Seite %s"
+
+#: inc/customizer.php:1646
+msgid "Theme info"
+msgstr "Theme-Informationen"
+
+#: inc/customizer.php:1676
+msgid "Nothing (only menu)"
+msgstr "Nichts (nur das Menü)"
+
+#: inc/customizer.php:1614
+msgid "Footer color"
+msgstr "Textfarbe Fußzeile"
+
+#: inc/customizer.php:1633
+msgid "Rows overlay"
+msgstr "Überlagerung der Reihe"
+
+#: inc/customizer.php:1648
+msgid "1. Documentation for Sydney can be found "
+msgstr "1. Du findest die Dokumentation von Sydney "
+
+#: inc/customizer.php:1648
+msgid "2. A full theme demo can be found "
+msgstr "2. Eine vollständige Demo des Themes findest du "
+
+#: inc/customizer.php:1354
+msgid "Menu background"
+msgstr "Hintergrund Hauptmenü"
+
+#: inc/customizer.php:1334
+msgid "Primary color"
+msgstr "Hauptfarbe"
+
+#: inc/customizer.php:1283
+msgid "Body font size"
+msgstr "Körper-Schriftgröße"
+
+#: inc/customizer.php:1264
+msgid "H6 font size"
+msgstr "H6 Schriftgröße"
+
+#: inc/customizer.php:1415
+msgid "Top level menu items"
+msgstr "Oberste Menüpunkte"
+
+#: inc/customizer.php:1435
+msgid "Sub-menu items"
+msgstr "Untermenüpunkte"
+
+#: inc/customizer.php:1454
+msgid "Sub-menu background"
+msgstr "Hintergrund Untermenü"
+
+#: inc/customizer.php:1514
+msgid "Sidebar background"
+msgstr "Hintergrund Seitenleiste"
+
+#: inc/customizer.php:1534
+msgid "Sidebar color"
+msgstr "Textfarbe Seitenleiste"
+
+#: inc/customizer.php:1594
+msgid "Footer background"
+msgstr "Hintergrund Fußzeile"
+
+#: inc/customizer.php:1554
+msgid "Footer widget area background"
+msgstr "Hintergrund Fußzeilen Widget Bereich"
+
+#: inc/customizer.php:1574
+msgid "Footer widget area color"
+msgstr "Textfarbe Fußzeilen Widget Bereich"
+
+#: inc/customizer.php:1474
+msgid "Header slider text"
+msgstr "Header-Slider Text"
+
+#: inc/customizer.php:1494
+msgid "Body text"
+msgstr "Body-Text"
+
+#: inc/customizer.php:1169
+msgid "H1 font size"
+msgstr "H1 Schriftgröße"
+
+#: inc/customizer.php:1188
+msgid "H2 font size"
+msgstr "H2 Schriftgröße"
+
+#: inc/customizer.php:1207
+msgid "H3 font size"
+msgstr "H3 Schriftgröße"
+
+#: inc/customizer.php:1226
+msgid "H4 font size"
+msgstr "H4 Schriftgröße"
+
+#: inc/customizer.php:1245
+msgid "H5 font size"
+msgstr "H5 Schriftgröße"
+
+#: inc/customizer.php:1150
+msgid "Menu items"
+msgstr "Menüpunkte"
+
+#: inc/customizer.php:1131 inc/customizer.php:1395
+msgid "Site description"
+msgstr "Beschreibung der Website"
+
+#: inc/customizer.php:1112 inc/customizer.php:1374
+msgid "Site title"
+msgstr "Titel der Website"
+
+#: inc/customizer.php:1094
+msgid "Font sizes"
+msgstr "Schriftgröße"
+
+#: inc/customizer.php:1046
+msgid "Headings fonts"
+msgstr "Überschriften-Schriftart"
+
+#: inc/customizer.php:1032 inc/customizer.php:1080
+msgid "Font family"
+msgstr "Schriftname"
+
+#: inc/customizer.php:998
+msgid "Body fonts"
+msgstr "Haupttext-Fonts"
+
+#: inc/customizer.php:987
+msgid "Google Fonts can be found here: google.com/fonts. See the documentation if you need help in selecting Google Fonts: athemes.com/documentation/sydney"
+msgstr "Google Schriftarten können hier gefunden werden: google.com/fonts. Schaue in die Dokumentation wenn du Hilfe beim Einstellen der Google Schriftarten benötigst: athemes.com/documentation/sydney"
+
+#: inc/customizer.php:1015 inc/customizer.php:1063
+msgid "Font name/style/sets"
+msgstr "Schriftname/-stil/-set"
+
+#: inc/customizer.php:985
+msgid "Fonts"
+msgstr "Schriftart"
+
+#: inc/customizer.php:974 inc/customizer.php:1707
+msgid "Four"
+msgstr "Vier"
+
+#: inc/customizer.php:973 inc/customizer.php:1706
+msgid "Three"
+msgstr "Drei"
+
+#: inc/customizer.php:972 inc/customizer.php:1705
+msgid "Two"
+msgstr "Zwei"
+
+#: inc/customizer.php:969
+msgid "Select the number of widget areas you want in the footer. After that, go to Appearance > Widgets and add your widgets."
+msgstr "Wähle die Anzahl der Widget Bereiche der Fußzeile aus. Gehe anschließend zu Design > Widgets und füge deine Widgets hinzu."
+
+#: inc/customizer.php:971 inc/customizer.php:1704
+msgid "One"
+msgstr "Einen"
+
+#: inc/customizer.php:967
+msgid "Footer widget area"
+msgstr "Fußzeilen Widget Bereich "
+
+#: inc/customizer.php:951 inc/customizer.php:1317
+msgid "Footer"
+msgstr "Fußzeile"
+
+#: inc/customizer.php:922
+msgid "Check this box to hide featured images on index, archives etc."
+msgstr "Markiere diese Box, um das Beitragsbild im Index, Archiven etc. auszublenden."
+
+#: inc/customizer.php:938
+msgid "Check this box to hide featured images on single posts"
+msgstr "Markiese diese Box, um das Beitragsbild bei Beiträgen auszublenden."
+
+#: inc/customizer.php:905
+msgid "Featured images"
+msgstr "Beitragsbilder"
+
+#: inc/customizer.php:875
+msgid "Hide post meta on index, archives?"
+msgstr "Beitragsinformationen im Index und Archiven verstecken?"
+
+#: inc/customizer.php:892
+msgid "Hide post meta on singles?"
+msgstr "Beitragsinformationen bei Beiträgen verstecken?"
+
+#: inc/customizer.php:857
+msgid "Meta"
+msgstr "Meta"
+
+#: inc/customizer.php:761 inc/customizer.php:1731
+msgid "Full width (no sidebar)"
+msgstr "Vollständige Breite (keine Seitenleiste)"
+
+#: inc/customizer.php:762 inc/customizer.php:1732
+msgid "Masonry (grid style)"
+msgstr "Masonry (Gitter-Stil)"
+
+#: inc/customizer.php:790
+msgid "Content/excerpt"
+msgstr "Inhalt/Auszug"
+
+#: inc/customizer.php:808
+msgid "Check this box to display the full content of your posts on the home page."
+msgstr "Setze hier ein Häkchen, wenn du die kompletten Blogeinträge auf der Blogseite anzeigen möchtest."
+
+#: inc/customizer.php:824
+msgid "Check this box to display the full content of your posts on all archives."
+msgstr "Setze hier ein Häkchen, wenn du die kompletten Blogeinträge in allen Archiven anzeigen möchtest."
+
+#: inc/customizer.php:777
+msgid "Full width single posts?"
+msgstr "Einzelne Beiträge auf komplette Breite?"
+
+#: inc/customizer.php:841
+msgid "Excerpt length"
+msgstr "Länge des Textauszugs"
+
+#: inc/customizer.php:842
+msgid "Choose your excerpt length. Default: 55 words"
+msgstr "Wähle die Länge der Textauszüge. Standard: 55 Wörter"
+
+#: inc/customizer.php:760 inc/customizer.php:1730
+msgid "Classic"
+msgstr "Klassisch"
+
+#: inc/customizer.php:756
+msgid "Blog layout"
+msgstr "Blog-Layout"
+
+#: inc/customizer.php:739
+msgid "Layout"
+msgstr "Layout"
+
+#: inc/customizer.php:715
+msgid "Upload your logo"
+msgstr "Lade dein Logo hoch"
+
+#: inc/customizer.php:727
+msgid "Blog options"
+msgstr "Blogoptionen"
+
+#: inc/customizer.php:697
+msgid "Disable the overlay?"
+msgstr "Überlagerung deaktivieren?"
+
+#: inc/customizer.php:663 inc/customizer.php:1693
+msgid "Contain"
+msgstr "beinhaltend"
+
+#: inc/customizer.php:679
+msgid "Header height [default: 300px]"
+msgstr "Header Höhe (Standard: 300px)"
+
+#: inc/customizer.php:621 inc/customizer.php:1719
+msgid "Static"
+msgstr "Statisch"
+
+#: inc/customizer.php:641 inc/customizer.php:1744
+msgid "Inline"
+msgstr "Inline"
+
+#: inc/customizer.php:642 inc/customizer.php:1745
+msgid "Centered (menu and site logo)"
+msgstr "Zentriert (Menü und Logo)"
+
+#: inc/customizer.php:662 inc/customizer.php:1692
+msgid "Cover"
+msgstr "ausfüllend"
+
+#: inc/customizer.php:659
+msgid "Header background size"
+msgstr "Header Hintergrund Größe"
+
+#: inc/customizer.php:620 inc/customizer.php:1718
+msgid "Sticky"
+msgstr "Oben halten"
+
+#: inc/customizer.php:599 inc/customizer.php:638
+msgid "Menu style"
+msgstr "Menüstil"
+
+#: inc/customizer.php:303
+msgid "Upload your second image for the slider"
+msgstr "Lade dein zweites Bild für den Slider hoch"
+
+#: inc/customizer.php:315
+msgid "Ready to begin your journey?"
+msgstr "Bereit, deine Reise anzutreten?"
+
+#: inc/customizer.php:322
+msgid "Title for the second slide"
+msgstr "Titel des zweiten Slides"
+
+#: inc/customizer.php:332
+msgid "Click the button below"
+msgstr "Klicke den unteren Button"
+
+#: inc/customizer.php:339
+msgid "Subtitle for the second slide"
+msgstr "Untertitel des zweiten Slides"
+
+#: inc/customizer.php:353
+msgid "Third slide"
+msgstr "Dritter Slide"
+
+#: inc/customizer.php:371
+msgid "Upload your third image for the slider"
+msgstr "Lade dein drittes Bild für den Slider hoch"
+
+#: inc/customizer.php:390
+msgid "Title for the third slide"
+msgstr "Titel des dritten Slides"
+
+#: inc/customizer.php:407
+msgid "Subtitle for the third slide"
+msgstr "Untertitel des dritten Slides"
+
+#: inc/customizer.php:421
+msgid "Fourth slide"
+msgstr "Vierter Slide"
+
+#: inc/customizer.php:439
+msgid "Upload your fourth image for the slider"
+msgstr "Lade dein viertes Bild für den Slider hoch"
+
+#: inc/customizer.php:458
+msgid "Title for the fourth slide"
+msgstr "Titel des vierten Slides"
+
+#: inc/customizer.php:475
+msgid "Subtitle for the fourth slide"
+msgstr "Untertitel des vierten Slides"
+
+#: inc/customizer.php:489
+msgid "Fifth slide"
+msgstr "Fünfter Slide"
+
+#: inc/customizer.php:526
+msgid "Title for the fifth slide"
+msgstr "Titel des fünften Slides"
+
+#: inc/customizer.php:507
+msgid "Upload your fifth image for the slider"
+msgstr "Lade dein fünftes Bild für den Slider hoch"
+
+#: inc/customizer.php:582
+msgid "Click to begin"
+msgstr "Klicke um zu beginnen"
+
+#: inc/customizer.php:543
+msgid "Subtitle for the fifth slide"
+msgstr "Untertitel des fünften Slides"
+
+#: inc/customizer.php:617
+msgid "Sticky menu"
+msgstr "Oben gehaltenes Menü"
+
+#: inc/customizer.php:573
+msgid "URL for your call to action button"
+msgstr "URL für deinen Call-To-Action-Button"
+
+#: inc/customizer.php:589
+msgid "Text for your call to action button"
+msgstr "Text für deinen Call-To-Action-Button"
+
+#: inc/customizer.php:557
+msgid "Call to action button"
+msgstr "Call-To-Action-Button"
+
+#: inc/customizer.php:187
+msgid "Slider speed"
+msgstr "Slider-Geschwindigkeit"
+
+#: inc/customizer.php:180
+msgid "4000"
+msgstr "4000"
+
+#: inc/customizer.php:190
+msgid "Slider speed in miliseconds. Use 0 to disable [default: 4000]"
+msgstr "Slider-Geschwindigkeit in Millisekunden. Verwende 0 um ihn anzuhalten [Standard: 4000]"
+
+#: inc/customizer.php:204
+msgid "Stop the text slider?"
+msgstr "Stoppe den Slider-Text?"
+
+#: inc/customizer.php:217
+msgid "First slide"
+msgstr "Erster Slide"
+
+#: inc/customizer.php:235
+msgid "Upload your first image for the slider"
+msgstr "Lade dein erstes Bild für den Slider hoch"
+
+#: inc/customizer.php:247
+msgid "Welcome to Sydney"
+msgstr "Willkommen zu Sydney"
+
+#: inc/customizer.php:254
+msgid "Title for the first slide"
+msgstr "Titel des ersten Slides"
+
+#: inc/customizer.php:271
+msgid "Subtitle for the first slide"
+msgstr "Untertitel des ersten Slides"
+
+#: inc/customizer.php:285
+msgid "Second slide"
+msgstr "Zweiter Slide"
+
+#: inc/customizer.php:264
+msgid "Feel free to look around"
+msgstr "Schau dich um wenn du möchtest!"
+
+#: inc/customizer.php:171
+msgid "You can add up to 5 images in the slider. Make sure you select where to display your slider from the Header Type section found above. You can also add a Call to action button (scroll down to find the options)"
+msgstr "Du kannst bis zu fünf Bilder in den Slider einfügen. Vergewissere dich, dass du im Header-Typ Bereich auswählst, wo der Slider angezeigt werden soll. Du kannst auch einen Call-To-Action-Button einfügen (scrolle für die Einstellung nach unten)"
+
+#: inc/customizer.php:170
+msgid "Header Slider"
+msgstr "Header Slider"
+
+#: inc/customizer.php:155
+msgid "Site header type"
+msgstr "Website Header-Typ"
+
+#: inc/customizer.php:157
+msgid "Select the header type for all pages except the front page"
+msgstr "Wähle einen Header-Typ für alle Seiten außer der Startseite"
+
+#: inc/customizer.php:139 inc/customizer.php:162
+msgid "No header (only menu)"
+msgstr "Kein Header (nur das Menü)"
+
+#: inc/customizer.php:137 inc/customizer.php:160 inc/customizer.php:1674
+msgid "Image"
+msgstr "Bild"
+
+#: inc/customizer.php:136 inc/customizer.php:159 inc/customizer.php:1673
+msgid "Full screen slider"
+msgstr "Vollbild-Slider"
+
+#: inc/customizer.php:132
+msgid "Front page header type"
+msgstr "Header-Typ Startseite"
+
+#: inc/customizer.php:134
+msgid "Select the header type for your front page"
+msgstr "Wähle einen Header-Typ für die Startseite "
+
+#: inc/customizer.php:117
+msgid "You can select your header type from here. After that, continue below to the next two tabs (Header Slider and Header Image) and configure them."
+msgstr "Du kannst hier den Typ des Header auswählen. Gehe im Anschluss zu den nächsten beiden Bereichen (Header Slider und Header Bild) und konfiguriere diese."
+
+#: inc/customizer.php:108
+msgid "Header area"
+msgstr "Header-Bereich"
+
+#: inc/customizer.php:114
+msgid "Header type"
+msgstr "Header-Typ"
+
+#: inc/customizer.php:17 inc/customizer.php:53
+msgid "General"
+msgstr "Allgemein"
+
+#: inc/customizer.php:16
+msgid "Site title/tagline/logo"
+msgstr "Seitentitel/Untertitel/Logo"
+
+#: header.php:30
+msgid "Skip to content"
+msgstr "Springe zum Inhalt"
+
+#: functions.php:230
+msgid "Create your menu here"
+msgstr "Erstelle dein Menü hier"
+
+#: functions.php:106
+msgid "Footer "
+msgstr "Fußzeile"
+
+#: functions.php:93 inc/customizer.php:1309
+msgid "Sidebar"
+msgstr "Seitenleiste"
+
+#: footer.php:26
+msgid "Theme: %2$s by %1$s."
+msgstr "Theme: %2$s by %1$s."
+
+#: functions.php:58
+msgid "Primary Menu"
+msgstr "Primäres Menü"
+
+#: footer.php:24
+msgid "Proudly powered by %s"
+msgstr "Stolz präsentiert von %s"
+
+#: footer.php:24
+msgid "http://wordpress.org/"
+msgstr "https://de.wordpress.org/"
+
+#: content-page.php:25 inc/template-tags.php:118
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: content-page.php:18 content-search.php:32 content-single.php:31
+#: content.php:34
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Es sieht so aus, als ob wir nicht das finden konnten, wonach du gesucht hast. Möglicherweise hilft die Suchfunktion."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Entschuldigung, aber zu deinen Suchbegriffen wurde nichts Passendes gefunden. Bitte versuche es mit anderen Stichworten noch einmal."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Bereit, um deinen ersten Beitrag zu veröffentlichen? <a href=\"%1$s\">Starte hier</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Es konnte nichts gefunden werden."
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: comments.php:37 comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr "Neuere Kommentare &rarr;"
+
+#: comments.php:36 comments.php:54
+msgid "&larr; Older Comments"
+msgstr "&larr; Ältere Kommentare"
+
+#: comments.php:35 comments.php:53
+msgid "Comment navigation"
+msgstr "Kommentar-Navigation"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Ein Gedanke zu &#8222;%2$s&#8220;"
+msgstr[1] "%1$s Gedanken zu &#8222;%2$s&#8220;"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Es wurde nichts gefunden. Versuche es mit einem der folgenden Links oder der Suche."
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Die Seite konnte nicht gefunden werden."
+
+#. Theme URI of the plugin/theme
+msgid "http://athemes.com/theme/sydney"
+msgstr "http://athemes.com/theme/sydney"
+
+#. Author of the plugin/theme
+msgid "aThemes"
+msgstr "aThemes"
+
+#. Author URI of the plugin/theme
+msgid "http://athemes.com"
+msgstr "http://athemes.com"

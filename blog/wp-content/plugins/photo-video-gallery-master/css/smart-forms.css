@@ -1,0 +1,1280 @@
+@import "http://fonts.googleapis.com/css?family=Roboto:400,300";
+html,
+body {
+    border: 0;
+    margin: 0;
+    padding: 0
+}
+
+.smart-wrap {
+    padding: 0 0px;
+}
+
+.smart-forms,
+.smart-forms * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.smart-forms {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    line-height: 1.231;
+    font-weight: 400;
+    font-size: 14px;
+    color: #34495E
+}
+
+.smart-container {
+    background: #fff;
+    margin: 0px auto;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
+    -o-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0
+}
+
+.wrap-0 {
+    max-width: 952px
+}
+
+.wrap-1 {
+    max-width: 852px
+}
+
+.wrap-2 {
+    max-width: 652px
+}
+
+.wrap-3 {
+    max-width: 452px
+}
+
+.smart-forms .section {
+    margin-bottom: 22px
+}
+
+.smart-forms .smart-link {
+    color: #1ABC9C;
+    text-decoration: none
+}
+
+.smart-forms .smart-link:hover {
+    text-decoration: underline
+}
+
+.smart-forms .tagline {
+    height: 0;
+    border-top: 1px solid #D9DDE5;
+    text-align: center
+}
+
+.smart-forms .tagline span {
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    padding: 0 15px;
+    background: #fff;
+    color: #1ABC9C;
+    top: -10px
+}
+
+.smart-forms .field {
+    display: block;
+    position: relative
+}
+
+.smart-forms .field-icon i {
+    color: #A2A6A8;
+    position: relative;
+    top: 0
+}
+
+.smart-forms .field-label {
+    display: block;
+    margin-bottom: 7px
+}
+
+.smart-forms .field-label.colm {
+    padding-top: 12px
+}
+
+.smart-forms .field-label em {
+    color: #e74c3c;
+    font-size: 14px;
+    font-style: normal;
+    display: inline-block;
+    margin-left: 4px;
+    position: relative;
+    top: 3px
+}
+
+.smart-forms .form-header {
+    overflow: hidden;
+    position: relative;
+    padding: 15px 30px;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0
+}
+
+.smart-forms .form-header h4 {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-weight: 300;
+    font-size: 24px;
+    padding: 0;
+    margin: 0
+}
+
+.smart-forms .form-header h4 i {
+    font-size: 28px;
+    position: relative;
+    margin-right: 10px;
+    top: 2px
+}
+
+.smart-forms .header-primary {
+    background-color: #1ABC9C;
+    border-top: 1px solid #23E0BA;
+    border-bottom: 5px solid #16A085
+}
+
+.smart-forms .header-lite {
+    background: #F3F5FA;
+    border-top: 1px solid #23E0BA;
+    border-bottom: 1px solid #D9DDE5
+}
+
+.smart-forms .header-lite:before {
+    content: "";
+    background-color: #1ABC9C;
+    position: absolute;
+    height: 8px;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0
+}
+
+.smart-forms .header-primary h4 {
+    color: #fff
+}
+
+.smart-forms .header-lite h4 {
+    color: #5D6A87;
+    padding-top: 5px
+}
+
+.smart-flat,
+.smart-flat .form-header {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0
+}
+
+.smart-forms .form-body {
+    padding: 40px 30px;
+    padding-bottom: 20px
+}
+
+.smart-forms .form-footer {
+    overflow: hidden;
+    padding: 20px 25px;
+    padding-top: 25px;
+    background: #F3F5FA url(../images/foobg.png) top left repeat-x
+}
+
+.smart-forms input[type=search] {
+    -webkit-appearance: textfield
+}
+
+.smart-forms::-webkit-search-decoration,
+.smart-forms::-webkit-search-cancel-button {
+    -webkit-appearance: none
+}
+
+.smart-forms input::-webkit-input-placeholder,
+.smart-forms textarea::-webkit-input-placeholder {
+    color: #919DA8
+}
+
+.smart-forms input:focus::-webkit-input-placeholder,
+.smart-forms textarea:focus::-webkit-input-placeholder {
+    color: #D6DBE0
+}
+
+.smart-forms input:-moz-placeholder,
+.smart-forms textarea:-moz-placeholder {
+    color: #919DA8
+}
+
+.smart-forms input:focus:-moz-placeholder,
+.smart-forms textarea:focus:-moz-placeholder {
+    color: #D6DBE0
+}
+
+.smart-forms input::-moz-placeholder,
+.smart-forms textarea::-moz-placeholder {
+    color: #919DA8;
+    opacity: 1
+}
+
+.smart-forms input:focus::-moz-placeholder,
+.smart-forms textarea:focus::-moz-placeholder {
+    color: #D6DBE0;
+    opacity: 1
+}
+
+.smart-forms input:-ms-input-placeholder,
+.smart-forms textarea:-ms-input-placeholder {
+    color: #919DA8
+}
+
+.smart-forms input:focus:-ms-input-placeholder,
+.smart-forms textarea:focus:-ms-input-placeholder {
+    color: #D6DBE0
+}
+
+.smart-forms label,
+.smart-forms input,
+.smart-forms button,
+.smart-forms select,
+.smart-forms textarea {
+    margin: 0;
+    font-size: 14px;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #34495E;
+    outline: none
+}
+
+.smart-forms .gui-input,
+.smart-forms .gui-textarea,
+.smart-forms .select > select,
+.smart-forms input[type="button"],
+.smart-forms input[type="submit"],
+.smart-forms input[type="search"],
+.smart-forms .select-multiple select {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+.smart-forms input[type="search"]::-webkit-search-decoration,
+.smart-forms input[type="search"]::-webkit-search-cancel-button,
+.smart-forms input[type="search"]::-webkit-search-results-button,
+.smart-forms input[type="search"]::-webkit-search-results-decoration {
+    display: none
+}
+
+.smart-forms .switch,
+.smart-forms .option,
+.smart-forms .field-label {
+    font-size: 14px
+}
+
+.smart-forms .radio,
+.smart-forms .button,
+.smart-forms .checkbox,
+.smart-forms .switch > label {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none
+}
+
+.smart-forms .radio,
+.smart-forms .button,
+.smart-forms .tooltip,
+.smart-forms .checkbox,
+.smart-forms .gui-input,
+.smart-forms .notification,
+.smart-forms .gui-textarea,
+.smart-forms .select > select,
+.smart-forms .select-multiple select,
+.smart-forms input[type="button"].button,
+.smart-forms input[type="submit"].button,
+.smart-forms input[type="search"].gui-input {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    outline: none
+}
+
+.smart-forms .select > select,
+.smart-forms .select-multiple select {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none
+}
+
+.smart-forms .select,
+.smart-forms .gui-input,
+.smart-forms .gui-textarea,
+.smart-forms .select > select,
+.smart-forms .select-multiple select {
+    background: #fff;
+    position: relative;
+    vertical-align: top;
+    border: 2px solid #BDC3C7;
+    display: -moz-inline-stack;
+    display: inline-block;
+    *display: inline;
+    color: #34495E;
+    outline: none;
+    height: 42px;
+    width: 100%;
+    *zoom: 1
+}
+
+.smart-forms .gui-input,
+.smart-forms .gui-textarea {
+    padding: 10px
+}
+
+.smart-forms .gui-textarea {
+    resize: none;
+    line-height: 19px;
+    overflow: auto;
+    max-width: 100%;
+    height: 96px
+}
+
+.smart-forms .input-hint {
+    padding: 10px;
+    display: block;
+    margin-top: -4px;
+    line-height: 16px;
+    position: relative;
+    background: #F2F4FA;
+    border: 2px solid #bdc3c7;
+    border-top: 1px solid #bdc3c7;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    -o-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    font-size: 11px;
+    color: #777
+}
+
+.smart-forms .select {
+    border: 0;
+    z-index: 10
+}
+
+.smart-forms .select > select {
+    display: block;
+    padding: 4px 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    text-indent: .01px;
+    z-index: 10;
+    margin: 0
+}
+
+.smart-forms .select > select::-ms-expand {
+    display: none
+}
+
+.smart-forms .select:before,
+.smart-forms .select:after {
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    z-index: 15
+}
+
+.smart-forms .select:before {
+    top: 2px;
+    right: 2px;
+    width: 34px;
+    bottom: 2px;
+    background: #F2F4FA;
+    border-left: 1px solid #d3dae7;
+    -webkit-border-radius: 0 1px 1px 0;
+    -moz-border-radius: 0 1px 1px 0;
+    -o-border-radius: 0 1px 1px 0;
+    border-radius: 0 1px 1px 0
+}
+
+.smart-forms .select .arrow {
+    position: absolute;
+    top: 9px;
+    right: 5px;
+    width: 24px;
+    height: 24px;
+    background: #F2F4FA;
+    color: #B5C1C7;
+    pointer-events: none;
+    z-index: 16
+}
+
+.smart-forms .select .arrow:after,
+.smart-forms .select .arrow:before {
+    content: '';
+    position: absolute;
+    font: 12px Consolas, monospace;
+    font-style: normal;
+    pointer-events: none;
+    left: 6px
+}
+
+.smart-forms .select .arrow:before {
+    content: '\25BC';
+    bottom: 4px
+}
+
+.smart-forms .select .double:after {
+    content: '\25B2';
+    top: -1px
+}
+
+.smart-forms .select .double:before {
+    content: '\25BC';
+    bottom: -1px
+}
+
+.smart-forms .select-multiple select {
+    width: 100%;
+    height: 123px;
+    padding: 10px
+}
+
+.smart-forms .file {
+    display: block;
+    width: 100%
+}
+
+.smart-forms .file .gui-file {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    padding: 8px 10px;
+    position: absolute;
+    -moz-opacity: 0;
+    opacity: 0;
+    z-index: 11;
+    bottom: 0;
+    right: 0
+}
+
+.smart-forms .file .button {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    float: none;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 16px;
+    z-index: 10
+}
+
+.smart-forms .gui-input:hover,
+.smart-forms .gui-textarea:hover,
+.smart-forms .select > select:hover,
+.smart-forms .select-multiple select:hover,
+.smart-forms .gui-input:hover ~ .input-hint,
+.smart-forms .file .gui-file:hover + .gui-input,
+.smart-forms .gui-textarea:hover ~ .input-hint {
+    border-color: #62D0BA
+}
+
+.smart-forms .gui-input:focus,
+.smart-forms .gui-textarea:focus,
+.smart-forms .select > select:focus,
+.smart-forms .select-multiple select:focus {
+    border-color: #1ABC9C;
+    color: #3C3C3C
+}
+
+.smart-forms .gui-textarea:focus {
+    height: 120px
+}
+
+.smart-forms .select > select:focus {
+    z-index: 10;
+    z-index: 20\9
+}
+
+.smart-forms .gui-input:focus ~ .field-icon i,
+.smart-forms .gui-textarea:focus ~ .field-icon i {
+    color: #1ABC9C
+}
+
+.smart-forms .select-multiple select:focus,
+.smart-forms .gui-input:focus ~ .input-hint,
+.smart-forms .gui-textarea:focus ~ .input-hint,
+.smart-forms .file .gui-file:focus + .gui-input {
+    border-color: #1ABC9C
+}
+
+.smart-forms .select > select:focus + .arrow {
+    color: #1ABC9C
+}
+
+.smart-forms .option {
+    position: relative;
+    padding-right: 15px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.smart-forms .option > input {
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    opacity: 0;
+    left: 0
+}
+
+.smart-forms .checkbox,
+.smart-forms .radio {
+    position: relative;
+    margin-right: 2px;
+    background: #fff;
+    display: inline-block;
+    border: 3px solid #B5C1C7;
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 21px;
+    width: 21px;
+    top: 4px
+}
+
+.smart-forms .checkbox:before,
+.smart-forms .radio:before {
+    content: '';
+    display: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0
+}
+
+.smart-forms input:checked + .checkbox:before,
+.smart-forms input:checked + .radio:before {
+    display: block
+}
+
+.smart-forms .checkbox:before {
+    position: absolute;
+    top: 4px;
+    left: 3px;
+    width: 6px;
+    height: 3px;
+    border: solid #1abc9c;
+    border-width: 0 0 3px 3px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.smart-forms input:checked + .checkbox,
+.smart-forms input:checked + .radio {
+    border: 3px solid #1abc9c
+}
+
+.smart-forms .radio {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px
+}
+
+.smart-forms .radio:before {
+    margin: 4px;
+    width: 7px;
+    height: 7px;
+    background: #1abc9c;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px
+}
+
+.smart-forms input:hover + .checkbox,
+.smart-forms input:hover + .radio {
+    border-color: #62D0BA
+}
+
+.smart-forms input:focus + .checkbox,
+.smart-forms input:focus + .radio {
+    border-color: #1abc9c
+}
+
+.smart-forms input:focus + .radio:before {
+    background: #1abc9c
+}
+
+.smart-forms input:focus + .checkbox:before {
+    border-color: #1abc9c
+}
+
+.smart-forms .smart-widget,
+.smart-forms .append-picker-icon,
+.smart-forms .prepend-picker-icon {
+    position: relative;
+    display: block
+}
+
+.smart-forms .smart-widget .field input,
+.smart-forms .append-picker-icon input,
+.smart-forms .prepend-picker-icon input {
+    width: 100%
+}
+
+.smart-forms .append-picker-icon button,
+.smart-forms .prepend-picker-icon button,
+.smart-forms .smart-widget .button {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    position: absolute;
+    height: 42px;
+    top: 0
+}
+
+.smart-forms .append-picker-icon button,
+.smart-forms .prepend-picker-icon .gui-input,
+.smart-forms .sm-left .field input,
+.smart-forms .sm-right .button {
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-top-left-radius: 0;
+    -moz-border-bottom-left-radius: 0;
+    -o-border-top-left-radius: 0;
+    -o-border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0
+}
+
+.smart-forms .prepend-picker-icon button,
+.smart-forms .append-picker-icon .gui-input,
+.smart-forms .sm-right .field input,
+.smart-forms .sm-left .button {
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-top-right-radius: 0;
+    -moz-border-bottom-right-radius: 0;
+    -o-border-top-right-radius: 0;
+    -o-border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+.smart-forms .prepend-picker-icon button,
+.smart-forms .sm-left .button {
+    left: 0
+}
+
+.smart-forms .append-picker-icon button,
+.smart-forms .sm-right .button {
+    right: 0
+}
+
+.smart-forms .sml-50,
+.smart-forms .prepend-picker-icon {
+    padding-left: 50px
+}
+
+.smart-forms .sml-50 .button,
+.smart-forms .prepend-picker-icon button {
+    width: 50px
+}
+
+.smart-forms .sml-80 {
+    padding-left: 80px
+}
+
+.smart-forms .sml-80 .button {
+    width: 80px
+}
+
+.smart-forms .sml-120 {
+    padding-left: 120px
+}
+
+.smart-forms .sml-120 .button {
+    width: 120px
+}
+
+.smart-forms .smr-50,
+.smart-forms .append-picker-icon {
+    padding-right: 50px
+}
+
+.smart-forms .smr-50 .button,
+.smart-forms .append-picker-icon button {
+    width: 50px
+}
+
+.smart-forms .smr-80 {
+    padding-right: 80px
+}
+
+.smart-forms .smr-80 .button {
+    width: 80px
+}
+
+.smart-forms .smr-120 {
+    padding-right: 120px
+}
+
+.smart-forms .smr-120 .button {
+    width: 120px
+}
+
+.smart-forms .append-picker-icon button,
+.smart-forms .prepend-picker-icon button {
+    background: #bdc3c7;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    cursor: pointer;
+    color: #243140;
+    border: 0
+}
+
+.smart-forms .append-picker-icon button:hover,
+.smart-forms .prepend-picker-icon button:hover {
+    color: #243140;
+    background: #cacfd2
+}
+
+.smart-forms .append-picker-icon button:active,
+.smart-forms .prepend-picker-icon button:active {
+    color: #1d2938;
+    background: #a1a6a9
+}
+
+.smart-forms .append-icon,
+.smart-forms .prepend-icon {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 100%
+}
+
+.smart-forms .append-icon .field-icon,
+.smart-forms .prepend-icon .field-icon {
+    top: 0;
+    width: 42px;
+    height: 42px;
+    color: inherit;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -ms-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+    pointer-events: none;
+    z-index: 99
+}
+
+.smart-forms .append-icon .field-icon i,
+.smart-forms .prepend-icon .field-icon i {
+    position: relative;
+    font-size: 14px
+}
+
+.smart-forms .prepend-icon .field-icon {
+    left: 0
+}
+
+.smart-forms .append-icon .field-icon {
+    right: 0
+}
+
+.smart-forms .prepend-icon > input,
+.smart-forms .prepend-icon > textarea,
+.smart-forms .prepend-icon > select {
+    padding-left: 36px
+}
+
+.smart-forms .append-icon > input,
+.smart-forms .append-icon > textarea {
+    padding-right: 36px;
+    padding-left: 10px
+}
+
+.smart-forms .append-icon > textarea {
+    padding-right: 36px
+}
+
+.smart-forms .tooltip {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    color: #fff;
+    width: 184px;
+    left: -9999px;
+    top: auto;
+    font-size: 11px;
+    font-weight: 400;
+    background: #34495E;
+    -webkit-transition: margin 0.6s, opacity .6s;
+    -moz-transition: margin 0.6s, opacity .6s;
+    -ms-transition: margin 0.6s, opacity .6s;
+    -o-transition: margin 0.6s, opacity .6s;
+    transition: margin 0.6s, opacity .6s
+}
+
+.smart-forms .smart-list {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.smart-forms .smart-list li {
+    margin-bottom: 20px
+}
+
+.smart-forms .form-msg {
+    display: none
+}
+
+.smart-forms .button[disabled],
+.smart-forms .state-disabled .button,
+.smart-forms input[disabled] + .radio,
+.smart-forms input[disabled] + .checkbox,
+.smart-forms .switch > input[disabled] + label {
+    cursor: default;
+    opacity: .5
+}
+
+.smart-forms .gui-input[disabled],
+.smart-forms .gui-textarea[disabled],
+.smart-forms .select > select[disabled],
+.smart-forms .select-multiple select[disabled],
+.smart-forms .gui-input[disabled] ~ .input-hint,
+.smart-forms .file .gui-file[disabled] + .gui-input,
+.smart-forms .file .gui-file[disabled]:hover + .gui-input,
+.smart-forms .gui-textarea[disabled] ~ .input-hint {
+    background-color: #f4f6f6;
+    border-color: #d5dbdb!important;
+    cursor: default;
+    color: #d5dbdb;
+    opacity: .7
+}
+
+.smart-forms input[disabled] ~ .field-icon i,
+.smart-forms textarea[disabled] ~ .field-icon i,
+.smart-forms .select > select[disabled] + .arrow {
+    opacity: .4
+}
+
+.ui-helper-hidden {
+    display: none
+}
+
+.ui-helper-hidden-accessible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px
+}
+
+.ui-helper-reset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    line-height: 1.3;
+    text-decoration: none;
+    font-size: 100%;
+    list-style: none
+}
+
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+    content: "";
+    display: table;
+    border-collapse: collapse
+}
+
+.ui-helper-clearfix:after {
+    clear: both
+}
+
+.ui-helper-clearfix {
+    min-height: 0
+}
+
+.ui-helper-zfix {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    filter: Alpha(Opacity=0)
+}
+
+.ui-front {
+    z-index: 100
+}
+
+.custom-combobox {
+    position: relative;
+    padding-right: 46px;
+    display: block
+}
+
+.custom-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin-left: -1px;
+    padding: 0;
+    z-index: 10;
+    width: 46px;
+    line-height: 40px;
+    height: 100%;
+    text-align: center;
+    background: #F2F4FA;
+    border: 2px solid #BDC3C7;
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    -o-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    color: #ADB4B8;
+    border-left: 0
+}
+
+.custom-combobox-input.gui-input {
+    margin: 0;
+    padding: 5px 10px;
+    -webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+    -o-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px
+}
+
+@-webkit-keyframes sfprogress {
+    from {
+        background-position: 0 0
+    }
+    to {
+        background-position: -16px 0
+    }
+}
+
+@-moz-keyframes sfprogress {
+    from {
+        background-position: 0 0
+    }
+    to {
+        background-position: -16px 0
+    }
+}
+
+@-o-keyframes sfprogress {
+    from {
+        background-position: 0 0
+    }
+    to {
+        background-position: -16px 0
+    }
+}
+
+@keyframes sfprogress {
+    from {
+        background-position: 0 0
+    }
+    to {
+        background-position: -16px 0
+    }
+}
+
+.smart-forms .block {
+    display: block
+}
+
+.smart-forms .frm-row {
+    margin: 0 -10px
+}
+
+.smart-forms .slider-group:before,
+.smart-forms .slider-group:after,
+.smart-forms .frm-row:before,
+.smart-forms .frm-row:after {
+    display: table;
+    content: "";
+    line-height: 0
+}
+
+.smart-forms .slider-group:after,
+.smart-forms .frm-row:after {
+    clear: both
+}
+
+.smart-forms .frm-row .colm {
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    float: left
+}
+
+.smart-forms .frm-row .colm1 {
+    width: 8.33%
+}
+
+.smart-forms .frm-row .colm2 {
+    width: 16.66%
+}
+
+.smart-forms .frm-row .colm3 {
+    width: 25%
+}
+
+.smart-forms .frm-row .colm4 {
+    width: 33.33%
+}
+
+.smart-forms .frm-row .colm5 {
+    width: 41.66%
+}
+
+.smart-forms .frm-row .colm6 {
+    width: 50%
+}
+
+.smart-forms .frm-row .colm7 {
+    width: 58.33%
+}
+
+.smart-forms .frm-row .colm8 {
+    width: 66.66%
+}
+
+.smart-forms .frm-row .colm9 {
+    width: 75%
+}
+
+.smart-forms .frm-row .colm10 {
+    width: 83.33%
+}
+
+.smart-forms .frm-row .colm11 {
+    width: 91.66%
+}
+
+.smart-forms .frm-row .colm12 {
+    width: 100%
+}
+
+.smart-forms .frm-row .colm1-5 {
+    width: 20%
+}
+
+.smart-forms .frm-row .colm1-8 {
+    width: 12.5%
+}
+
+.smart-forms .spacer {
+    border-top: 1px solid #D9DDE5;
+    display: block;
+    height: 0
+}
+
+.smart-forms .spacer-t10 {
+    margin-top: 10px
+}
+
+.smart-forms .spacer-b10 {
+    margin-bottom: 10px
+}
+
+.smart-forms .spacer-t15 {
+    margin-top: 15p
+}
+
+.smart-forms .spacer-b15 {
+    margin-bottom: 15px
+}
+
+.smart-forms .spacer-t20 {
+    margin-top: 20px
+}
+
+.smart-forms .spacer-b20 {
+    margin-bottom: 20px
+}
+
+.smart-forms .spacer-t25 {
+    margin-top: 25px
+}
+
+.smart-forms .spacer-b25 {
+    margin-bottom: 25px
+}
+
+.smart-forms .spacer-t30 {
+    margin-top: 30px
+}
+
+.smart-forms .spacer-b30 {
+    margin-bottom: 30px
+}
+
+.smart-forms .spacer-t40 {
+    margin-top: 40px
+}
+
+.smart-forms .spacer-b40 {
+    margin-bottom: 40px
+}
+
+.smart-forms .frm-row .pad-l10 {
+    padding-left: 10px
+}
+
+.smart-forms .frm-row .pad-r10 {
+    padding-right: 10px
+}
+
+.smart-forms .frm-row .pad-l20 {
+    padding-left: 20px
+}
+
+.smart-forms .frm-row .pad-r20 {
+    padding-right: 20px
+}
+
+.smart-forms .frm-row .pad-l30 {
+    padding-left: 30px
+}
+
+.smart-forms .frm-row .pad-r30 {
+    padding-right: 30px
+}
+
+.smart-forms .frm-row .pad-l40 {
+    padding-left: 40px
+}
+
+.smart-forms .frm-row .pad-r40 {
+    padding-right: 40px
+}
+
+.smart-forms .bdl {
+    border-left: 1px solid #D9DDE5
+}
+
+.smart-forms .bdr {
+    border-right: 1px solid #D9DDE5
+}
+
+.smart-forms .fine-grey {
+    color: #919DA8
+}
+
+.smart-forms .small-text {
+    font-size: 11px;
+    font-style: normal
+}
+
+.smart-forms .text-align {
+    height: 42px;
+    line-height: 42px
+}
+
+.smart-forms .align-right {
+    text-align: right
+}
+
+.smart-forms .align-center {
+    text-align: center
+}
+
+.smart-forms .expand {
+    height: 50px;
+    line-height: 50px!important
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .smart-forms .option,
+    .smart-forms .rating,
+    .smart-forms .switch,
+    .smart-forms .captcode {
+        -webkit-animation: bugfix infinite 1s
+    }
+}
+
+@-webkit-keyframes bugfix {
+    from {
+        padding: 0
+    }
+    to {
+        padding: 0
+    }
+}
+
+.smart-forms .switch {
+    margin-right: 10px;
+    margin-bottom: 5px
+}
+
+.smart-forms .option {
+    margin-right: 15px
+}
+
+.smart-forms .switch-round > .switch-label:after {
+    font: 20px/18px Times, Serif
+}
+
+@media (max-width: 800px) {
+    .smart-forms .frm-row {
+        margin: 0
+    }
+    .smart-forms .frm-row .colm {
+        width: 100%;
+        float: none;
+        padding: 0
+    }
+    .smart-forms .bdl {
+        border-left: 0
+    }
+    .smart-forms .bdr {
+        border-right: 0
+    }
+    .smart-forms .align-right {
+        text-align: left
+    }
+}

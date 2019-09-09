@@ -1,0 +1,201 @@
+ï»¿<!DOCTYPE html>
+<?xml version="1.0" encoding="utf-8"?>
+<html lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+   <meta charset="Content-Type: text/html; charset=UTF-8">
+    <title></title>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>   
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="dist/bootstrap-clockpicker.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/github.min.css">
+    <script type="text/javascript">
+        $('.clockpicker').clockpicker()
+            .find('input').change(function () {
+                console.log(this.value);
+            });
+</script>
+</head>
+<body>
+    <form id="form1" runat="server">
+             <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+      <asp:UpdatePanel runat="server" ID="update">  
+        <ContentTemplate>
+      <div class="text-center">
+    <h4>Acionamento do Codigo Azul</h4>
+  </div>
+        <br />
+         <br/>
+<div class="container">
+	<div class="form-group">       
+		<div id="clock" class="input-group clockpicker">
+            <span class="input-group-addon" id="basic-addon1">Horario da Solicitação:</span>
+			<input type="text" class="form-control" value="00:00">
+			<span class="input-group-addon">
+				<span class="glyphicon glyphicon-time"></span>
+			</span>
+		</div>
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="dist/bootstrap-clockpicker.min.js"></script>
+<script type="text/javascript">
+$('.clockpicker').clockpicker()
+	.find('input').change(function(){
+		console.log(this.value);
+	});
+var input = $('#single-input').clockpicker({
+	placement: 'bottom',
+	align: 'left',
+	autoclose: true,
+	'default': 'now'
+});
+
+$('.clockpicker-with-callbacks').clockpicker({
+		donetext: 'Done',
+		init: function() { 
+			console.log("colorpicker initiated");
+		},
+		beforeShow: function() {
+			console.log("before show");
+		},
+		afterShow: function() {
+			console.log("after show");
+		},
+		beforeHide: function() {
+			console.log("before hide");
+		},
+		afterHide: function() {
+			console.log("after hide");
+		},
+		beforeHourSelect: function() {
+			console.log("before hour selected");
+		},
+		afterHourSelect: function() {
+			console.log("after hour selected");
+		},
+		beforeDone: function() {
+			console.log("before done");
+		},
+		afterDone: function() {
+			console.log("after done");
+		}
+	})
+	.find('input').change(function(){
+		console.log(this.value);
+	});
+
+// Manually toggle to the minutes view
+$('#check-minutes').click(function(e){
+	// Have to stop propagation here
+	e.stopPropagation();
+	input.clockpicker('show')
+			.clockpicker('toggleView', 'minutes');
+});
+if (/mobile/i.test(navigator.userAgent)) {
+	$('input').prop('readOnly', true);
+}
+@media (min-width: 1200px) { ... }
+ 
+/* tables em formato porta retrato até os desktos no formato paisagem */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+/* dispositivo em paisagem até os tablets em formato porta-retrato */
+@media (max-width: 767px) { ... }
+ 
+/* dispositivo no formato paisagem e abaixos */
+@media (max-width: 480px) { ... }
+</script>
+         <br/>
+<div class="container">
+	<div class="form-group">       
+		<div id="clock" class="input-group clockpicker">
+            <span class="input-group-addon" id="basic-addon1">Horario do Atendimento:</span>
+			<input type="text" class="form-control" value="00:00">
+			<span class="input-group-addon">
+				<span class="glyphicon glyphicon-time"></span>
+			</span>
+		</div>
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="dist/bootstrap-clockpicker.min.js"></script>
+<script type="text/javascript">
+$('.clockpicker').clockpicker()
+	.find('input').change(function(){
+		console.log(this.value);
+	});
+var input = $('#single-input').clockpicker({
+	placement: 'bottom',
+	align: 'left',
+	autoclose: true,
+	'default': 'now'
+});
+
+$('.clockpicker-with-callbacks').clockpicker({
+		donetext: 'Done',
+		init: function() { 
+			console.log("colorpicker initiated");
+		},
+		beforeShow: function() {
+			console.log("before show");
+		},
+		afterShow: function() {
+			console.log("after show");
+		},
+		beforeHide: function() {
+			console.log("before hide");
+		},
+		afterHide: function() {
+			console.log("after hide");
+		},
+		beforeHourSelect: function() {
+			console.log("before hour selected");
+		},
+		afterHourSelect: function() {
+			console.log("after hour selected");
+		},
+		beforeDone: function() {
+			console.log("before done");
+		},
+		afterDone: function() {
+			console.log("after done");
+		}
+	})
+	.find('input').change(function(){
+		console.log(this.value);
+	});
+
+// Manually toggle to the minutes view
+$('#check-minutes').click(function(e){
+	// Have to stop propagation here
+	e.stopPropagation();
+	input.clockpicker('show')
+			.clockpicker('toggleView', 'minutes');
+});
+if (/mobile/i.test(navigator.userAgent)) {
+	$('input').prop('readOnly', true);
+}
+</script>
+        <br />
+         <div class="input-group">
+  <span class="input-group-addon" id="basic-addon3" >Destino Paciente</span>&nbsp;&nbsp;
+  <select runat="server" class="form-control" id="sel1" style="width: auto; height: auto">
+    <option>UTI </option>
+    <option>PA</option>
+    <option>Permanecer na Unidade</option>
+  </select>
+</div>
+    <br /> 
+            <div class="input-group" >   
+  <span class="input-group-addon" id="basic-addon1">Setor de Origem:</span>
+        <input type="text"  maxlength="2" id="teste1" runat="server"  class="form-control" placeholder="" aria-describedby="basic-addon1" >
+</div>
+        <br/>
+<button type="button" class="btn btn-default" aria-label="Left Align" >
+Salvar 
+  <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>
+</button>
+    </form>
+</body>
+</html>

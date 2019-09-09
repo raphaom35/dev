@@ -1,0 +1,912 @@
+# Translation of Themes - Esteem in Dutch
+# This file is distributed under the same license as the Themes - Esteem package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-09-20 10:32:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: nl\n"
+"Project-Id-Version: Themes - Esteem\n"
+
+#. #-#-#-#-#  esteem.pot (Esteem 1.3.4)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#: inc/admin/class-esteem-admin.php:350
+msgid "Esteem"
+msgstr "Esteem"
+
+#. Description of the plugin/theme
+msgid "Esteem is a clean multipurpose responsive WordPress theme designed to fit business, portfolio, blogging or any type of site. The theme supports custom header, custom background, custom widgets, page templates and has built in options panel to configure primary color, site logo, slider, sidebar layout and 3 blog layout. It's also fully compatible with popular plugins like contact Form 7, WP PageNavi and Breadcrumb Navxt and is translation ready. Get free support at http://themegrill.com/support-forum/ and check the demo at http://demo.themegrill.com/esteem/."
+msgstr "Esteem is een opgeruimd responsive WordPress thema dat voor meerdere doeleinden geschikt is. Het is ontworpen voor zakelijk, portfolio, bloggen of ieder ander type site. Het thema bevat een aangepaste header, eigen achtergrond, eigen widgets-achtergrond, eigen widgets en pagina-templates. Het heeft een ingebouwd instellingenpaneel om de hoofdkleur, site-logo, slider, layout van de sidebar in te stellen en om uit 3 blog-layouts te kiezen. Het is ook volledig compatible met populaire plugins als Contact Form 7, WP-PageNavi en Breadcrumb Navxt en is klaar om vertaald te worden. Vraag gratis support op http://themegrill.com/support-forum/ en bekijk de demo op http://demo.themegrill.com/esteem/."
+
+#: inc/admin/class-esteem-admin.php:351
+msgid "Esteem Pro"
+msgstr "Esteem Pro"
+
+#: inc/customizer.php:53
+msgid "Esteem Important Links"
+msgstr "Esteem belangrijke links"
+
+#: inc/admin/class-esteem-admin.php:36 inc/admin/class-esteem-admin.php:116
+msgid "About"
+msgstr "Over"
+
+#: inc/admin/class-esteem-admin.php:74
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Actie mislukt. Vernieuw de pagina en probeer nogmaals."
+
+#: inc/admin/class-esteem-admin.php:78
+msgid "Cheatin&#8217; huh?"
+msgstr "Valsspelen?"
+
+#: inc/admin/class-esteem-admin.php:92
+msgid "Dismiss"
+msgstr "Negeren"
+
+#: inc/admin/class-esteem-admin.php:145
+msgid "Supported Plugins"
+msgstr "Ondersteunde plugins"
+
+#: inc/admin/class-esteem-admin.php:148
+msgid "Free Vs Pro"
+msgstr "Gratis versus Pro"
+
+#: inc/admin/class-esteem-admin.php:151
+msgid "Changelog"
+msgstr "Changelog"
+
+#: inc/admin/class-esteem-admin.php:185
+msgid "Theme Customizer"
+msgstr "Thema Customizer"
+
+#: inc/admin/class-esteem-admin.php:186
+msgid "All Theme Options are available via Customize screen."
+msgstr "Alle thema-opties zijn beschikbaar via het Customize-scherm."
+
+#: inc/admin/class-esteem-admin.php:187
+msgid "Customize"
+msgstr "Customize"
+
+#: inc/admin/class-esteem-admin.php:192
+msgid "Please view our documentation page to setup the theme."
+msgstr "Lees onze documentatiepagina om te kijken hoe het thema in te richten."
+
+#: inc/admin/class-esteem-admin.php:197
+msgid "Got theme support question?"
+msgstr "Heb je een ondersteuningsvraag over dit thema?"
+
+#: inc/admin/class-esteem-admin.php:203
+msgid "Need more features?"
+msgstr "Meer mogelijkheden nodig?"
+
+#: inc/admin/class-esteem-admin.php:204 inc/admin/class-esteem-admin.php:344
+msgid "Upgrade to PRO version for more exciting features."
+msgstr "Upgrade naar de PRO-versie voor meer uitgebreide mogelijkheden."
+
+#: inc/admin/class-esteem-admin.php:209
+msgid "Got sales related question?"
+msgstr "Een verkoopgerelateerde vraag?"
+
+#: inc/admin/class-esteem-admin.php:210
+msgid "Please send it via our sales contact page."
+msgstr "Vraag het op onze contactpagina voor verkoop."
+
+#: inc/admin/class-esteem-admin.php:217 inc/admin/class-esteem-admin.php:225
+msgid "Translate"
+msgstr "Vertalen"
+
+#: inc/admin/class-esteem-admin.php:221
+msgid "Click below to translate this theme into your own language."
+msgstr "Klik hieronder om dit thema in je eigen taal te vertalen."
+
+#: inc/admin/class-esteem-admin.php:237
+msgid "Return to Updates"
+msgstr "Terug naar Updates"
+
+#: inc/admin/class-esteem-admin.php:237
+msgid "Return to Dashboard &rarr; Updates"
+msgstr "Terug naar Dashboard &rarr; Updates"
+
+#: inc/admin/class-esteem-admin.php:240
+msgid "Go to Dashboard &rarr; Home"
+msgstr "Ga naar Dashboard &rarr; Home"
+
+#: inc/admin/class-esteem-admin.php:240
+msgid "Go to Dashboard"
+msgstr "Ga naar Dashboard"
+
+#: inc/admin/class-esteem-admin.php:257
+msgid "View changelog below:"
+msgstr "Bekijk de changelog hieronder:"
+
+#: inc/admin/class-esteem-admin.php:309
+msgid "This theme recommends following plugins:"
+msgstr "Dit thema raadt de volgende plugins aan:"
+
+#: inc/admin/class-esteem-admin.php:311 inc/admin/class-esteem-admin.php:386
+msgid "Social Icons"
+msgstr "Sociale Iconen"
+
+#: inc/admin/class-esteem-admin.php:312 inc/admin/class-esteem-admin.php:315
+msgid " by ThemeGrill"
+msgstr " door ThemeGrill"
+
+#: inc/admin/class-esteem-admin.php:314
+msgid "Easy Social Sharing"
+msgstr "Easy Social Sharing"
+
+#: inc/admin/class-esteem-admin.php:317
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: inc/admin/class-esteem-admin.php:318
+msgid "WP-PageNavi"
+msgstr "WP-PageNavi"
+
+#: inc/admin/class-esteem-admin.php:320
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/admin/class-esteem-admin.php:323
+msgid "Polylang"
+msgstr "Polylang"
+
+#: inc/admin/class-esteem-admin.php:321 inc/admin/class-esteem-admin.php:324
+#: inc/admin/class-esteem-admin.php:327
+msgid "Fully Compatible in Pro Version"
+msgstr "Volledig compatible in Pro-versie"
+
+#: inc/admin/class-esteem-admin.php:326
+msgid "WPML"
+msgstr "WPML"
+
+#: inc/admin/class-esteem-admin.php:349
+msgid "Features"
+msgstr "Mogelijkheden"
+
+#: inc/admin/class-esteem-admin.php:447
+msgid "Forum"
+msgstr "Forum"
+
+#: inc/admin/class-esteem-admin.php:448
+msgid "Forum + Emails/Support Ticket"
+msgstr "Forum + E-mails/Support-ticket"
+
+#: inc/admin/class-esteem-admin.php:363
+msgid "600+"
+msgstr "600+"
+
+#: inc/admin/class-esteem-admin.php:357
+msgid "4"
+msgstr "4"
+
+#: inc/admin/class-esteem-admin.php:441
+msgid "Footer Copyright Editor"
+msgstr "Editor voor de copyright-tekst in de footer"
+
+#: inc/admin/class-esteem-admin.php:426
+msgid "WPML Compatible"
+msgstr "WPML compatible"
+
+#: inc/admin/class-esteem-admin.php:431
+msgid "Polylang Compatible"
+msgstr "Polylang compatible"
+
+#: inc/admin/class-esteem-admin.php:205 inc/admin/class-esteem-admin.php:499
+#: inc/customizer.php:33
+msgid "View Pro"
+msgstr "Bekijk Pro"
+
+#: inc/admin/class-esteem-admin.php:211
+msgid "Contact Page"
+msgstr "Contactpagina"
+
+#: inc/admin/class-esteem-admin.php:137 inc/customizer.php:41
+msgid "Rate this theme"
+msgstr "Beoordeel dit thema"
+
+#: inc/admin/class-esteem-admin.php:446
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: inc/admin/class-esteem-admin.php:319
+msgid "Breadcrumb NavXT"
+msgstr "Breadcrumb NavXT"
+
+#: inc/admin/class-esteem-admin.php:358
+msgid "Unlimited Slides"
+msgstr "Onbeperkte slides"
+
+#: inc/admin/class-esteem-admin.php:361
+msgid "Google Fonts Option"
+msgstr "Google Fonts optie"
+
+#: inc/admin/class-esteem-admin.php:366
+msgid "Font Size options"
+msgstr "Opties voor lettergrootte"
+
+#: inc/admin/class-esteem-admin.php:376
+msgid "Multiple Color Options"
+msgstr "Opties voor meerdere kleuren"
+
+#: inc/admin/class-esteem-admin.php:381
+msgid "Additional Top Header"
+msgstr "Extra top-header"
+
+#: inc/admin/class-esteem-admin.php:383
+msgid "Social Icons + Menu + Header text option"
+msgstr "Opties voor sociale Iconen + menu + header-tekst"
+
+#: inc/admin/class-esteem-admin.php:391
+msgid "Boxed & Wide layout option"
+msgstr "Optie voor smalle en brede layout"
+
+#: inc/admin/class-esteem-admin.php:411
+msgid "Woocommerce Compatible"
+msgstr "Woocommerce compatible"
+
+#: inc/admin/class-esteem-admin.php:416
+msgid "Translation Ready"
+msgstr "Klaar om vertaald te worden"
+
+#: inc/admin/class-esteem-admin.php:406
+msgid "Breadcrumb NavXT Compatible"
+msgstr "Breadcrumb NavXT compatible"
+
+#: inc/admin/class-esteem-admin.php:451
+msgid "TG: Services widget"
+msgstr "TG: widget voor services/diensten"
+
+#: inc/admin/class-esteem-admin.php:456
+msgid "TG: Call to Action widget"
+msgstr "TG: widget voor Call to Action"
+
+#: inc/admin/class-esteem-admin.php:471
+msgid "TG: Featured Posts"
+msgstr "TG: Uitgelichte berichten"
+
+#: inc/admin/class-esteem-admin.php:476
+msgid "TG: Our Clients"
+msgstr "TG: Onze cliënten"
+
+#: inc/admin/class-esteem-admin.php:199 inc/customizer.php:25
+msgid "Support Forum"
+msgstr "Forum voor ondersteuning"
+
+#: inc/customizer.php:128
+msgid "Responsive Menu Style"
+msgstr "Opmaak van het responsive menu"
+
+#: inc/admin/class-esteem-admin.php:371
+msgid "Primary Color"
+msgstr "Hoofdkleur"
+
+#: inc/admin/class-esteem-admin.php:198
+msgid "Please put it in our dedicated support forum."
+msgstr "Plaats de vraag op ons toegewijd support forum."
+
+#: inc/admin/class-esteem-admin.php:378
+msgid "35+ color options"
+msgstr "35+ kleuropties"
+
+#: inc/admin/class-esteem-admin.php:421
+msgid "RTL Support"
+msgstr "RTL-ondersteuning"
+
+#: inc/admin/class-esteem-admin.php:436
+msgid "Footer Widget Area"
+msgstr "Footer Widgetgebied"
+
+#: inc/admin/class-esteem-admin.php:396
+msgid "Content Demo"
+msgstr "Content Demo"
+
+#: inc/admin/class-esteem-admin.php:481
+msgid "TG: Pricing Table"
+msgstr "TG: Prijstabel"
+
+#: inc/admin/class-esteem-admin.php:486
+msgid "TG: Team"
+msgstr "TG: Team"
+
+#: inc/admin/class-esteem-admin.php:491
+msgid "TG: Fun Facts"
+msgstr "TG: Fun Facts"
+
+#: inc/customizer.php:139
+msgid "Switch to new responsive menu."
+msgstr "Gebruik het nieuwe responsive menu."
+
+#: inc/admin/class-esteem-admin.php:401
+msgid "WP-PageNavi Compatible"
+msgstr "WP-PageNavi Compatible"
+
+#: inc/admin/class-esteem-admin.php:461
+msgid "TG: Featured widget"
+msgstr "TG: Uitgelicht widget"
+
+#: inc/admin/class-esteem-admin.php:95
+msgid "Get started with Esteem"
+msgstr "Beginnen met Esteem"
+
+#: inc/admin/class-esteem-admin.php:93
+msgid "Welcome! Thank you for choosing Esteem! To fully take advantage of the best our theme can offer please make sure you visit our %swelcome page%s."
+msgstr "Welkom. Bedankt voor het kiezen van Esteem. Om het beste gebruik te maken van de mogelijkheden die ons thema biedt, kijk naar onze %swelkomstpagina%s."
+
+#: inc/admin/class-esteem-admin.php:131 inc/customizer.php:21
+msgid "Theme Info"
+msgstr "Thema info"
+
+#: inc/admin/class-esteem-admin.php:135
+msgid "View PRO version"
+msgstr "Bekijk PRO-versie"
+
+#: inc/customizer.php:319
+msgid "Select default layout. This layout will be reflected in whole site archives, search etc. The layout for a single post and page can be controlled from below options.. The change is reflected in whole site."
+msgstr "Selecteer standaard layout. Deze layout geldt voor de site-archieven, zoekpagina's, etc. De layout voor enkele berichten en pagina's kan hieronder ingesteld worden. Deze instelling geldt voor de gehele site."
+
+#: inc/functions.php:333
+msgid "<span class=\"icon-time\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">%3$s</a></span>"
+msgstr "<span class=\"icon-time\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">%3$s</a></span>"
+
+#. Template Name of the plugin/theme
+msgid "Contact Page Template"
+msgstr "Template voor contactpagina"
+
+#. Template Name of the plugin/theme
+msgid "Business Template"
+msgstr "Business Template"
+
+#: sidebar-left.php:36 sidebar.php:36
+msgid "Meta"
+msgstr "Meta"
+
+#: searchform.php:12 searchform.php:13 searchform.php:15
+msgid "Search"
+msgstr "Zoeken"
+
+#: inc/admin/class-esteem-admin.php:133 inc/customizer.php:37
+msgid "View Demo"
+msgstr "Bekijk Demo"
+
+#: inc/admin/class-esteem-admin.php:191 inc/admin/class-esteem-admin.php:193
+#: inc/customizer.php:29
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: inc/customizer.php:586
+msgid "Enter your slider description."
+msgstr "Voer de omschrijving in."
+
+#: inc/customizer.php:601
+msgid "Enter link to redirect slider when clicked"
+msgstr "Voer de link naar de pagina in waar naartoe genavigeerd moet worden bij een klik."
+
+#: inc/customizer.php:525
+msgid "Activate slider"
+msgstr "Activeer slider"
+
+#: inc/customizer.php:545
+msgid "Image Upload #%1$s"
+msgstr "Upload afbeelding #%1$s"
+
+#: inc/customizer.php:558
+msgid "Upload slider image."
+msgstr "Upload slider-afbeelding."
+
+#: inc/customizer.php:572
+msgid "Enter title for your slider."
+msgstr "Voer de titel van je slider-item in."
+
+#: inc/customizer.php:537
+msgid "Check to activate slider."
+msgstr "Aanvinken om de slider te activeren."
+
+#: inc/admin/class-esteem-admin.php:356 inc/customizer.php:520
+msgid "Slider"
+msgstr "Slider"
+
+#: inc/customizer.php:507
+msgid "Upload favicon for your site."
+msgstr "Upload favicon voor je site."
+
+#: inc/customizer.php:456
+msgid "Write your custom css."
+msgstr "Schrijf je eigen CSS."
+
+#: inc/customizer.php:470
+msgid "Additional"
+msgstr "Extra"
+
+#: inc/customizer.php:476
+msgid "Activate favicon"
+msgstr "Activeer favicon"
+
+#: inc/customizer.php:494
+msgid "Upload favicon"
+msgstr "Upload favicon"
+
+#: inc/customizer.php:488
+msgid "Check to activate favicon. Upload fav icon from below option"
+msgstr "Aanvinken om de favicon te activeren. Upload je favicon in de optie hieronder."
+
+#: inc/customizer.php:345
+msgid "Select default layout for pages. This layout will be reflected in all pages unless unique layout is set for specific page."
+msgstr "Selecteer standaard layout voor pagina's. Deze layout wordt gebruikt in alle pagina's tenzij een unieke layout is geselecteerd voor die pagina."
+
+#: inc/customizer.php:358
+msgid "Default layout for single posts only"
+msgstr "Standaard layout alleen voor enkele berichten"
+
+#: inc/customizer.php:371
+msgid "Select default layout for single posts. This layout will be reflected in all single posts unless unique layout is set for specific post."
+msgstr "Selecteer standaard layout voor enkele berichten. Deze layout wordt gebruikt voor enkele berichten tenzij een unieke layout is gekozen voor het bericht."
+
+#: inc/customizer.php:409
+msgid "Primary color option"
+msgstr "Hoofdkleur"
+
+#: inc/customizer.php:420
+msgid "This will reflect in links, buttons and many others. Choose a color to match your site."
+msgstr "Deze kleur wordt gebruikt in links, buttons en op vele andere plekken. Kies een kleur die bij je site past."
+
+#: inc/customizer.php:444
+msgid "Custom CSS"
+msgstr "Eigen CSS"
+
+#: inc/customizer.php:396
+msgid "Choose the display type for the latests posts view or posts page view (static front page)."
+msgstr "Kies het weergave-type voor de laatste berichten of de berichtenpagina (bij statische voorpagina)."
+
+#: inc/customizer.php:399
+msgid "Large featured image"
+msgstr "Grote uitgelichte afbeelding"
+
+#: inc/customizer.php:400
+msgid "Small featured image"
+msgstr "Kleine uitgelichte afbeelding"
+
+#: inc/customizer.php:384
+msgid "Blog page display type"
+msgstr "Weergave van blogpagina"
+
+#: inc/customizer.php:401
+msgid "Full Content"
+msgstr "Volledige content"
+
+#: inc/customizer.php:332
+msgid "Default layout for pages only"
+msgstr "Standaard layout alleen voor pagina's"
+
+#: inc/customizer.php:222
+msgid "Site Layout"
+msgstr "Site-layout"
+
+#: inc/customizer.php:306
+msgid "Default layout"
+msgstr "Standaard-layout"
+
+#: inc/customizer.php:234
+msgid "Choose your site layout. The change is reflected in whole site."
+msgstr "Kies je site-layout. De wijziging geldt voor de gehele site."
+
+#: inc/customizer.php:237
+msgid "Boxed layout"
+msgstr "Boxed layout"
+
+#: inc/customizer.php:238
+msgid "Wide layout"
+msgstr "Brede layout"
+
+#: inc/customizer.php:180 inc/customizer.php:190
+msgid "Button Text"
+msgstr "Button Text"
+
+#: inc/customizer.php:217
+msgid "Design"
+msgstr "Design"
+
+#: inc/customizer.php:163
+msgid "Promo box secondary Slogan"
+msgstr "Secundaire slogan in Promo-box"
+
+#: inc/customizer.php:146
+msgid "Promo box Primary Slogan"
+msgstr "Primaire slogan in Promo-box"
+
+#: inc/customizer.php:173
+msgid "Enter the sub slogan"
+msgstr "Voer de sub-slogan in"
+
+#: inc/customizer.php:197
+msgid "Button redirect link"
+msgstr "herverwijslink van knop"
+
+#: inc/customizer.php:207
+msgid "Enter redirect link"
+msgstr "Voer herverwijslink in"
+
+#: inc/customizer.php:156
+msgid "Enter the main Slogan"
+msgstr "Voer de hoofd-slogan in"
+
+#: inc/customizer.php:115
+msgid "Choose the option that you want."
+msgstr "Kies de optie die je wilt."
+
+#: inc/customizer.php:103
+msgid "Show"
+msgstr "Tonen"
+
+#: inc/customizer.php:121
+msgid "Disable"
+msgstr "Uitschakelen"
+
+#: inc/customizer.php:79
+msgid "Header Logo"
+msgstr "Header-logo"
+
+#: inc/customizer.php:118
+msgid "Header Logo Only"
+msgstr "Alleen header-logo"
+
+#: inc/customizer.php:119
+msgid "Header Text Only"
+msgstr "Alleen header-tekst"
+
+#: inc/customizer.php:120
+msgid "Show Both"
+msgstr "Toon Beide"
+
+#: inc/customizer.php:93
+msgid "Upload logo for your header."
+msgstr "Upload logo voor de header."
+
+#: inc/customizer.php:74
+msgid "Header"
+msgstr "Header"
+
+#: no-results.php:25
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Het lijkt erop dat we niet kunnen vinden waar je naar zoekt. Misschien kun je er naar zoeken."
+
+#: no-results.php:20
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Helaas, er waren geen overeenkomsten met je zoekterm. Probeer het opnieuw met enkele andere zoekwoorden."
+
+#: no-results.php:16
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Klaar om je eerste bericht te publiceren? <a href=\"%1$s\">Start hier</a>."
+
+#: navigation.php:41
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: navigation.php:40
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: navigation.php:33
+msgid "Next &rarr;"
+msgstr "Volgende &rarr;"
+
+#: navigation.php:32
+msgid "&larr; Previous"
+msgstr "&larr; Vorige"
+
+#: navigation.php:21
+msgid "Next &raquo;"
+msgstr "Volgende &raquo;"
+
+#: navigation.php:20
+msgid "&laquo; Previous"
+msgstr "&laquo; Vorige"
+
+#: inc/widgets/widgets.php:580 inc/widgets/widgets.php:598
+msgid "Testimonial Description"
+msgstr "Testimonial Omschrijving"
+
+#: inc/widgets/widgets.php:583 inc/widgets/widgets.php:601
+msgid "Byline:"
+msgstr "Onderschrift:"
+
+#: inc/widgets/widgets.php:589 inc/widgets/widgets.php:607
+msgid "Company link:"
+msgstr "Bedrijfslink:"
+
+#: inc/widgets/widgets.php:577 inc/widgets/widgets.php:595
+msgid "Image link:"
+msgstr "Link afbeelding:"
+
+#: inc/widgets/widgets.php:586 inc/widgets/widgets.php:604
+msgid "Company:"
+msgstr "Bedrijf:"
+
+#: inc/widgets/widgets.php:574 inc/widgets/widgets.php:592
+msgid "Name:"
+msgstr "Naam:"
+
+#: inc/widgets/widgets.php:455
+msgid "Display Testimonial"
+msgstr "Toon Testimonial"
+
+#: inc/admin/class-esteem-admin.php:466 inc/widgets/widgets.php:457
+msgid "TG: Testimonial"
+msgstr "TG: Testimonial"
+
+#: inc/widgets/widgets.php:373
+msgid "Button Redirect Link:"
+msgstr "Knop herverwijst naar pagina:"
+
+#: inc/widgets/widgets.php:377
+msgid "Open in new tab"
+msgstr "Openen in een nieuw tabblad"
+
+#: inc/widgets/widgets.php:346
+msgid "TG: Call To Action Widget"
+msgstr "TG: Call To Action Widget"
+
+#: inc/widgets/widgets.php:369
+msgid "Button Text:"
+msgstr "Tekst op Knop:"
+
+#: inc/widgets/widgets.php:366
+msgid "Call to Action Additional Text"
+msgstr "Extra tekst van Call to Action"
+
+#: inc/widgets/widgets.php:364
+msgid "Call to Action Main Text"
+msgstr "Call to Action Tekst"
+
+#: inc/widgets/widgets.php:344
+msgid "Use this widget to show the call to action section"
+msgstr "Gebruik deze widget om de Call to Action weer te geven"
+
+#: inc/widgets/widgets.php:254 inc/widgets/widgets.php:571
+msgid "Title:"
+msgstr "Titel:"
+
+#: inc/widgets/widgets.php:235
+msgid "TG: Featured Widget"
+msgstr "TG: Uitgelicht Widget"
+
+#: inc/widgets/widgets.php:233
+msgid "Use this widget to show recent work, portfolio or any pages as your wish ( Business Layout )"
+msgstr "Gebruik deze widget om recent werk, portfolio of gewenste pagina's weer te geven (Business layout)"
+
+#: inc/widgets/widgets.php:133 inc/widgets/widgets.php:261
+msgid "Page"
+msgstr "Pagina"
+
+#: inc/widgets/widgets.php:110
+msgid "TG: Services"
+msgstr "TG: Diensten"
+
+#: inc/widgets/widgets.php:87
+msgid "Shows widgets on Contact Page Template."
+msgstr "Toon widgets op Contactpagina Template"
+
+#: inc/widgets/widgets.php:108
+msgid "Display Services( Business Layout )"
+msgstr "Toon Services (Business Layout)"
+
+#: inc/widgets/widgets.php:128
+msgid "Check to display the Featured Image"
+msgstr "Aanvinken om de uitgelichte afbeelding weer te geven"
+
+#: inc/widgets/widgets.php:129
+msgid "<strong>Note:</strong> Featured Image will overwrite the fontawesome icon."
+msgstr "<strong>NB:</strong> Uitgelichte afbeelding wordt overschreven door het fontawesome icoon."
+
+#: inc/widgets/widgets.php:31
+msgid "Shows widgets at Left side."
+msgstr "Laat de Widgets aan de linkerkant zien."
+
+#: inc/widgets/widgets.php:85
+msgid "Contact Page Sidebar"
+msgstr "Contact Pagina Sidebar"
+
+#: inc/widgets/widgets.php:63
+msgid "Footer Sidebar Two"
+msgstr "Footer Sidebar Twee"
+
+#: inc/widgets/widgets.php:65
+msgid "Shows widgets at footer sidebar two."
+msgstr "Toon widgets op footer sidebar twee."
+
+#: inc/widgets/widgets.php:74
+msgid "Footer Sidebar Three"
+msgstr "Footer Sidebar Drie"
+
+#: inc/widgets/widgets.php:76
+msgid "Shows widgets at footer sidebar three."
+msgstr "Toon widgets op footer sidebar drie."
+
+#: inc/widgets/widgets.php:52
+msgid "Footer Sidebar One"
+msgstr "Footer Sidebar Een"
+
+#: inc/widgets/widgets.php:54
+msgid "Shows widgets at footer sidebar one."
+msgstr "Toon widgets op footer sidebar een."
+
+#: inc/widgets/widgets.php:43
+msgid "Shows widgets on Business Page Template."
+msgstr "Toon widgets op Business Page Template."
+
+#: inc/widgets/widgets.php:41
+msgid "Business Page Sidebar"
+msgstr "Sidebar van Business pagina"
+
+#: inc/widgets/widgets.php:20
+msgid "Shows widgets at Right side."
+msgstr "Laat de Widgets aan de rechterkant zien."
+
+#: inc/header-functions.php:177
+msgid "You are here:"
+msgstr "Je bent hier:"
+
+#: inc/header-functions.php:144
+msgid "Search Results"
+msgstr "Zoekresultaten"
+
+#: inc/header-functions.php:141
+msgid "Page NOT Found"
+msgstr "Pagina niet gevonden"
+
+#: inc/header-functions.php:136 sidebar-left.php:29 sidebar.php:29
+msgid "Archives"
+msgstr "Archieven"
+
+#: inc/header-functions.php:133
+msgid "Year: %s"
+msgstr "Jaar: %s"
+
+#: inc/header-functions.php:130
+msgid "Month: %s"
+msgstr "Maand: %s"
+
+#: inc/header-functions.php:127
+msgid "Day: %s"
+msgstr "Dag: %s"
+
+#: inc/header-functions.php:119
+msgid "Author: %s"
+msgstr "Auteur: %s"
+
+#: inc/functions.php:244
+msgid "Powered by %s."
+msgstr "Powered by %s."
+
+#: inc/functions.php:244
+msgid "Theme: %1$s by %2$s."
+msgstr "Thema: %1$s door %2$s."
+
+#. #-#-#-#-#  esteem.pot (Esteem 1.3.4)  #-#-#-#-#
+#. Author of the plugin/theme
+#: inc/functions.php:242
+msgid "ThemeGrill"
+msgstr "ThemeGrill"
+
+#: inc/functions.php:244
+msgid "Copyright &copy; %1$s %2$s."
+msgstr "Copyright &copy; %1$s %2$s."
+
+#: inc/functions.php:240
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/admin/meta-boxes.php:72
+msgid "No sidebar full width"
+msgstr "Geen Sidebar Volledige Breedte"
+
+#: inc/admin/meta-boxes.php:76
+msgid "No sidebar content Centered"
+msgstr "Geen Sidebar Content Gecentreerd"
+
+#: inc/admin/meta-boxes.php:86
+msgid "fontawesome Icons"
+msgstr "fontawesome Iconen"
+
+#: inc/admin/meta-boxes.php:68 inc/widgets/widgets.php:29
+msgid "Left Sidebar"
+msgstr "Sidebar links"
+
+#: inc/admin/meta-boxes.php:64 inc/widgets/widgets.php:18
+msgid "Right Sidebar"
+msgstr "Sidebar rechts"
+
+#: inc/admin/meta-boxes.php:55
+msgid "Sidebar Layout"
+msgstr "Sidebar-layout"
+
+#: inc/admin/meta-boxes.php:60
+msgid "Default Layout"
+msgstr "Standaardlayout"
+
+#: inc/admin/meta-boxes.php:41
+msgid "Icon class"
+msgstr "Icoon-class"
+
+#: content-single.php:22
+msgid "Tagged on: "
+msgstr "Getagd op:"
+
+#: fontawesome/icons.php:4
+msgid "(None)"
+msgstr "(Geen)"
+
+#: inc/admin/meta-boxes.php:21 inc/admin/meta-boxes.php:31
+msgid "Select Layout"
+msgstr "Selecteer Layout"
+
+#: content-page.php:17 content-single.php:29
+msgid "Pages:"
+msgstr "Pagina&#39;s:"
+
+#: content-blog-image-large.php:42 content-blog-image-medium.php:43
+#: content.php:46 inc/widgets/widgets.php:195 inc/widgets/widgets.php:212
+msgid "Read more"
+msgstr "Meer lezen"
+
+#: inc/functions.php:347
+msgid "Edit"
+msgstr "Bewerken"
+
+#: inc/functions.php:344
+msgid "Comments Off"
+msgstr "Reageren uitgeschakeld"
+
+#: inc/functions.php:344
+msgid "% Comments"
+msgstr "% reacties"
+
+#: inc/functions.php:344
+msgid "1 Comment"
+msgstr "1 reactie"
+
+#: inc/functions.php:344
+msgid "No Comments"
+msgstr "Geen reacties"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Reacties zijn gesloten."
+
+#: comments.php:40 comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr "Nieuwere reacties &rarr;"
+
+#: comments.php:39 comments.php:57
+msgid "&larr; Older Comments"
+msgstr "&larr; Oudere reacties"
+
+#: comments.php:38 comments.php:56
+msgid "Comment navigation"
+msgstr "Reactienavigatie"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Try the search below."
+msgstr "Het lijkt erop dat er niets is gevonden op deze plek. Probeer de zoekfunctie hieronder."
+
+#: comments.php:31
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Eén gedachte over &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s gedachten over &ldquo;%2$s&rdquo;"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oeps. Deze pagina kon niet worden gevonden."
+
+#. Theme URI of the plugin/theme
+msgid "http://themegrill.com/themes/esteem/"
+msgstr "http://themegrill.com/themes/esteem/"
+
+#. Author URI of the plugin/theme
+msgid "http://themegrill.com"
+msgstr "http://themegrill.com"

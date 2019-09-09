@@ -1,0 +1,14 @@
+<wpml-config>
+	<admin-texts>
+		<key name="event_theme_options">
+			<key name="event_search_text" />
+			<key name="event_tag_text" />
+			<key name="event-img-upload-footer-image" />
+			<key name="event-footer-title" />
+			<key name="event-footer-link" />
+			<key name="event_tag_text" />
+			<key name="event_tag_text" />
+			<key name="event_secondary_text" />
+		</key>
+	</admin-texts>
+</wpml-config>

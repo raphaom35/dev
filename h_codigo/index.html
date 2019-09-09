@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<?xml version="1.0" encoding="utf-8"?>
+<html lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>   
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="dist/bootstrap-clockpicker.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/github.min.css">
+
+    <script type="text/javascript">
+        $('.clockpicker').clockpicker()
+            .find('input').change(function () {
+                console.log(this.value);
+            });
+
+        var input = $('#single-input').clockpicker({
+            placement: 'bottom',
+            align: 'left',
+            autoclose: true,
+            'default': 'now'
+        });
+
+        $('.clockpicker-with-callbacks').clockpicker({
+            donetext: 'Done',
+            init: function () {
+                console.log("colorpicker initiated");
+            },
+            beforeShow: function () {
+                console.log("before show");
+            },
+            afterShow: function () {
+                console.log("after show");
+            },
+            beforeHide: function () {
+                console.log("before hide");
+            },
+            afterHide: function () {
+                console.log("after hide");
+            },
+            beforeHourSelect: function () {
+                console.log("before hour selected");
+            },
+            afterHourSelect: function () {
+                console.log("after hour selected");
+            },
+            beforeDone: function () {
+                console.log("before done");
+            },
+            afterDone: function () {
+                console.log("after done");
+            }
+        })
+            .find('input').change(function () {
+                console.log(this.value);
+            });
+
+        // Manually toggle to the minutes view
+        $('#check-minutes').click(function (e) {
+            // Have to stop propagation here
+            e.stopPropagation();
+            input.clockpicker('show')
+                    .clockpicker('toggleView', 'minutes');
+        });
+        if (/mobile/i.test(navigator.userAgent)) {
+            $('input').prop('readOnly', true);
+        }
+		function isDecimal(num) {
+    if(isNaN(num)) return false;             // false para não numéricos
+    return parseInt(num) != parseFloat(num); // false para inteiros
+}
+        function isNumberKey(evt)
+       {
+          var charCode = (evt.which) ? evt.which : evt.keyCode;
+          if (charCode != 46 && charCode > 31 
+            && (charCode < 48 || charCode > 57))
+             return false;
+
+          return true;
+       }
+        function valida_horas(edit) {
+
+            if (event.keyCode < 48 || event.keyCode > 57) {
+
+                event.returnValue = false;
+
+            }
+
+            if (edit.value.length == 2 || edit.value.length == 5) {
+
+                edit.value += ":";
+            }
+
+        }
+       function validarTemp() {
+	  var tem = teste.teste1.value
+	       var ck_FR1 = '36';
+     var ck_FR = '38';
+	 if(tem!=""){
+    if (tem =='37'||tem =='37.1'||tem =='37.2'||tem =='37.3'||tem =='37.4'||tem =='37.5'||tem =='37.6'||tem =='37.7'||tem =='37.8'||tem =='37.9') {
+	
+        document.getElementById("teste1").style.borderColor = "red";
+    } else {
+	
+	document.getElementById("teste1").style.borderColor = "";
+    }
+	}
+    return result;
+}
+       function validarFr() {
+	   var FR1 = teste.Text2.value
+	       var ck_FR1 = '8';
+     var ck_FR = '24';
+	 if(FR1!=""){
+    if (FR1>ck_FR1 || FR1<ck_FR) {
+	
+        document.getElementById("Text2").style.borderColor = "red";
+    } else {
+	
+	document.getElementById("Text2").style.borderColor = "";
+    }
+	}
+    return result;
+}
+       function validarPAS() {
+	  var FR1 = teste.Text3.value
+	       var ck_FR1 = '90';
+     var ck_FR = '180'
+	 if(FR1!=""){
+    if (FR1>ck_FR1 || FR1<ck_FR) {
+	
+        document.getElementById("Text3").style.borderColor = "red";
+    } else {
+	
+	document.getElementById("Text3").style.borderColor = "";
+    }}
+    return result;
+}
+       function validarSPO() {
+	  var SPO = teste.Text6.value
+	 if(SPO!=""){
+    if (SPO>90 ) {
+	
+        document.getElementById("Text6").style.borderColor = "red";
+    } else {
+	
+	document.getElementById("Text6").style.borderColor = "";
+    }}
+    return result;
+}
+    </script>
+<style>
+.city {
+    float: left;
+    margin: 5px;
+    padding: 15px;
+    max-width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+@media (min-width: 1200px) { ... }
+ 
+/* tables em formato porta retrato até os desktos no formato paisagem */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+/* dispositivo em paisagem até os tablets em formato porta-retrato */
+@media (max-width: 767px) { ... }
+ 
+/* dispositivo no formato paisagem e abaixos */
+@media (max-width: 480px) { ... }
+</style>
+</head>
+<body>
+				<form id="teste" runat="server">
+    
+ <div class="text-center">
+    <h4>Formulario de Atendimento de Urgencia e Emergencia</h4>
+  </div>
+    <br/>
+          
+<div class="container">
+	<div class="form-group">       
+		<div  class="input-group clockpicker">
+            <span class="input-group-addon" id="basic-addon1">Horario da Solicitação:</span>
+			<input type="text" id="hor_sol"  runat="server" class="form-control">
+			<span class="input-group-addon">
+				<span class="glyphicon glyphicon-time"></span>
+			</span>
+		</div>
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="dist/bootstrap-clockpicker.min.js"></script>
+<script type="text/javascript">
+$('.clockpicker').clockpicker()
+	.find('input').change(function(){
+		console.log(this.value);
+	});
+var input = $('#single-input').clockpicker({
+	placement: 'bottom',
+	align: 'left',
+	autoclose: true,
+	'default': 'now'
+});
+
+$('.clockpicker-with-callbacks').clockpicker({
+		donetext: 'Done',
+		init: function() { 
+			console.log("colorpicker initiated");
+		},
+		beforeShow: function() {
+			console.log("before show");
+		},
+		afterShow: function() {
+			console.log("after show");
+		},
+		beforeHide: function() {
+			console.log("before hide");
+		},
+		afterHide: function() {
+			console.log("after hide");
+		},
+		beforeHourSelect: function() {
+			console.log("before hour selected");
+		},
+		afterHourSelect: function() {
+			console.log("after hour selected");
+		},
+		beforeDone: function() {
+			console.log("before done");
+		},
+		afterDone: function() {
+			console.log("after done");
+		}
+	})
+	.find('input').change(function(){
+		console.log(this.value);
+	});
+
+// Manually toggle to the minutes view
+$('#check-minutes').click(function(e){
+	// Have to stop propagation here
+	e.stopPropagation();
+	input.clockpicker('show')
+			.clockpicker('toggleView', 'minutes');
+});
+if (/mobile/i.test(navigator.userAgent)) {
+	$('input').prop('readOnly', true);
+}
+</script>
+<script type="text/javascript" src="assets/js/highlight.min.js"></script>
+<script type="text/javascript">
+hljs.configure({tabReplace: '    '});
+hljs.initHighlightingOnLoad();
+</script> 
+
+        <br />
+<div class="container">
+	<div class="form-group">       
+		<div  class="input-group clockpicker">
+            <span class="input-group-addon" id="basic-addon1">Horario do Atend. Médico:</span>
+			<input type="text" id="hor_at" runat="server" class="form-control">
+			<span class="input-group-addon">
+				<span class="glyphicon glyphicon-time"></span>
+			</span>
+		</div>
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="dist/bootstrap-clockpicker.min.js"></script>
+<script type="text/javascript">
+$('.clockpicker').clockpicker()
+	.find('input').change(function(){
+		console.log(this.value);
+	});
+var input = $('#single-input').clockpicker({
+	placement: 'bottom',
+	align: 'left',
+	autoclose: true,
+	'default': 'now'
+});
+
+$('.clockpicker-with-callbacks').clockpicker({
+		donetext: 'Done',
+		init: function() { 
+			console.log("colorpicker initiated");
+		},
+		beforeShow: function() {
+			console.log("before show");
+		},
+		afterShow: function() {
+			console.log("after show");
+		},
+		beforeHide: function() {
+			console.log("before hide");
+		},
+		afterHide: function() {
+			console.log("after hide");
+		},
+		beforeHourSelect: function() {
+			console.log("before hour selected");
+		},
+		afterHourSelect: function() {
+			console.log("after hour selected");
+		},
+		beforeDone: function() {
+			console.log("before done");
+		},
+		afterDone: function() {
+			console.log("after done");
+		}
+	})
+	.find('input').change(function(){
+		console.log(this.value);
+	});
+
+// Manually toggle to the minutes view
+$('#check-minutes').click(function(e){
+	// Have to stop propagation here
+	e.stopPropagation();
+	input.clockpicker('show')
+			.clockpicker('toggleView', 'minutes');
+});
+if (/mobile/i.test(navigator.userAgent)) {
+	$('input').prop('readOnly', true);
+}
+</script>
+<script type="text/javascript" src="assets/js/highlight.min.js"></script>
+<script type="text/javascript">
+hljs.configure({tabReplace: '    '});
+hljs.initHighlightingOnLoad();
+</script>
+        <br /> 
+    <div class="input-group" >   
+  <span class="input-group-addon" id="basic-addon1">T(<36ºC ou >38ºC):</span>
+        <input type="text" onblur='validarTemp()' onkeypress='return isNumberKey(event);' maxlength="4" id="teste1" runat="server"  class="form-control" placeholder="(<36ºC ou >38ºC)" aria-describedby="basic-addon1" >
+</div>
+    <br />
+
+    <div class="input-group" >
+  <span class="input-group-addon" id="basic-addon1">Presão(<51 ou >120 bpm):</span>
+  <input type="text" id="Text1" onblur='validarPres(Text1)' runat="server" onkeypress='return isNumberKey(event);' maxlength="5"  class="form-control" placeholder="Sistólica" aria-describedby="basic-addon1" />
+        <input type="text" id="Text7" onblur='validarPres(Text7)' runat="server" onkeypress='return isNumberKey(event);' maxlength="5"  class="form-control" placeholder="Diastólica" aria-describedby="basic-addon1" />
+</div>
+<br />
+    <div class="input-group" >
+  <span class="input-group-addon" id="basic-addon1">FR(<8 ou >24 rpm):</span>
+  <input type="text" id="Text2" runat="server"  onblur='validarFr()' class="form-control" onkeypress='return isNumberKey(event);' maxlength="4" placeholder="(<8 ou >24 rpm)" aria-describedby="basic-addon1" >
+</div>
+<br />
+<div class="input-group" >
+  <span class="input-group-addon" id="basic-addon1">PAS(<90 ou > 180mmHg):</span>
+  <input type="text" id="Text3" runat="server"  class="form-control" onblur='validarPAS()' onkeypress='return isNumberKey(event);' maxlength="5" placeholder="(<90 ou > 180mmHg)" aria-describedby="basic-addon1" >
+</div>
+    <br />
+<div class="input-group" >
+  <span class="input-group-addon" id="basic-addon1">Dor:</span>
+  <input type="text" id="Text4" runat="server"  class="form-control" placeholder="" aria-describedby="basic-addon1" >
+</div>
+<br />
+<div class="input-group" >
+  <span class="input-group-addon" id="basic-addon1">Enchimento Capilhar(>2 seg.):</span>
+  <input type="text" id="Text5" runat="server"  class="form-control" placeholder="(>2 seg.)" aria-describedby="basic-addon1" >
+</div>
+    <br />
+<div class="input-group" >
+  <span class="input-group-addon" id="basic-addon1">SPO2(<90%):</span>
+  <input type="text" id="Text6" onblur='validarSPO()' runat="server"  class="form-control" placeholder="(<90%)" aria-describedby="basic-addon1" >
+</div>
+        <br />
+<div class="input-group" >
+  <span class="input-group-addon" id="basic-addon1">Rebaiximanteo do nivel de Conciencia</span>&nbsp;&nbsp;
+  <label text="sim" class="switch">
+  <input name="chek1" type="checkbox" id="chek1" value="1">
+  <div class="slider round"></div>
+</label>
+</div>
+<div class="input-group" >
+  <span class="input-group-addon" id="basic-addon1">Diurese(ausente mais de 6 horas)</span>&nbsp;&nbsp;
+  <label text="sim" class="switch">
+  <input name="chek2" type="checkbox" id="chek2" value="1">
+  <div class="slider round"></div>
+</label>
+</div>
+<div class="input-group" >
+  <span class="input-group-addon" id="basic-addon1">Sangramaneto Ativo</span>&nbsp;&nbsp;
+  <label text="sim" class="switch">
+  <input name="chek3" type="checkbox" id="chek3" value="1">
+  <div class="slider round"></div>
+</label>
+</div>
+<div class="input-group" >
+  <span class="input-group-addon" id="basic-addon1">Impressão Subjetiva de má evolucação</span>&nbsp;&nbsp;
+  <label text="sim" class="switch">
+  <input name="chek4" type="checkbox" id="chek4" value="1">
+  <div class="slider round"></div>
+</label>
+</div>
+<br />
+<div class="container">
+	<div class="form-group">       
+		<div class="input-group clockpicker">
+            <span class="input-group-addon" id="basic-addon1">Reavaliar em ate 1h:</span>
+			<input type="text" id="reavaliar" runat="server" class="form-control">
+			<span class="input-group-addon">
+				<span class="glyphicon glyphicon-time"></span>
+			</span>
+		</div>
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="dist/bootstrap-clockpicker.min.js"></script>
+<script type="text/javascript">
+$('.clockpicker').clockpicker()
+	.find('input').change(function(){
+		console.log(this.value);
+	});
+var input = $('#single-input').clockpicker({
+	placement: 'bottom',
+	align: 'left',
+	autoclose: true,
+	'default': 'now'
+});
+
+$('.clockpicker-with-callbacks').clockpicker({
+		donetext: 'Done',
+		init: function() { 
+			console.log("colorpicker initiated");
+		},
+		beforeShow: function() {
+			console.log("before show");
+		},
+		afterShow: function() {
+			console.log("after show");
+		},
+		beforeHide: function() {
+			console.log("before hide");
+		},
+		afterHide: function() {
+			console.log("after hide");
+		},
+		beforeHourSelect: function() {
+			console.log("before hour selected");
+		},
+		afterHourSelect: function() {
+			console.log("after hour selected");
+		},
+		beforeDone: function() {
+			console.log("before done");
+		},
+		afterDone: function() {
+			console.log("after done");
+		}
+	})
+	.find('input').change(function(){
+		console.log(this.value);
+	});
+
+// Manually toggle to the minutes view
+$('#check-minutes').click(function(e){
+	// Have to stop propagation here
+	e.stopPropagation();
+	input.clockpicker('show')
+			.clockpicker('toggleView', 'minutes');
+});
+if (/mobile/i.test(navigator.userAgent)) {
+	$('input').prop('readOnly', true);
+}
+</script>
+<script type="text/javascript" src="assets/js/highlight.min.js"></script>
+<script type="text/javascript">
+hljs.configure({tabReplace: '    '});
+hljs.initHighlightingOnLoad();
+</script>
+        <br />
+    <div class="input-group">
+  <span class="input-group-addon" id="basic-addon3" >Destino Paciente</span>&nbsp;&nbsp;
+  <select runat="server" class="form-control" id="sel1" style="width: auto; height: auto">
+    <option>UTI </option>
+    <option>PA</option>
+    <option>Permanecer na Unidade</option>
+  </select>
+</div>
+    <br /> 
+        <br />
+<button type="button" class="btn btn-default" aria-label="Left Align" >
+Salvar 
+  <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>
+</button> 
+<a href="CodigoAzul.html"> <button type="button" class="btn btn-default" href="CodigoAzul.html" aria-label="Left Align" >
+Codigo Azul
+  <span class="" aria-hidden="true"></span>
+</button><a/>
+                  
+    </form>
+	       
+</body>
+</html>

@@ -1,0 +1,57 @@
+== CHANGE LOG ==
+= 1.1.0 =
+	- Fix - Title for author displayed issue fixed
+
+= 1.0.9 =
+	- Fix - Invalid error with reset button fixed
+
+= 1.0.8 =
+	- Fix - Missing readmore text on frontpage fixed
+	- Update - Unwanted space removed
+
+= 1.0.7 =
+	- Update - Upgrade to Pro button added on panel
+	- Updated - Custom CSS added to support core for WP version 4.7
+	- Fix - http to https path changed
+
+= 1.0.6 =
+	- Fix - Front page category displaying fixed
+
+= 1.0.5 =
+	- Fix - Upcoming and Program schedule title issue fixed
+	- Fix - Media Css removed which is no required anymore
+	- Update - CSS Updated
+	- Fix - div  with container and upcoming issues fixed
+
+= 1.0.4 =
+	- New - Hide Event Archive Title Options added
+	- New - Featured Image also displayed on page
+	- Fix - Unwanted code removed
+	- Fix - Search Form design issue fixed
+	- Update - CSS Updated
+
+= 1.0.3 =
+	- New - action_hook() added
+	- Fix - loop issue on single page fixed
+	- Fix - Prefix issue fixed
+	- Update - Unwanted code remvoed
+	- Update - CSS Updated
+
+= 1.0.2 =
+	- Fix - Custom CSS Handled Properly using wp_add_inline_style
+	- Fix - Upgrade to pro link removed from top of customizer
+	- Fix - Security issue fixed
+	- Update - Color Options issue fixed at cutomizer
+	- Update - Translations would now fully happen via https://translate.wordpress.org/ and .pot files and languages directory are no longer needed.
+	- update - Code Clean
+	- Feature - New options added for color
+
+= 1.0.1 =
+	- Fix - Security issue fixed
+	- Fix - Default COlor Changed
+	- Update - Screenshot changed
+	- Update - Layout changed
+	- update - pot file updated
+
+= 1.0 =
+	- Initial Release
